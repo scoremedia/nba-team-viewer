@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.nba.Data.Team
 import kotlinx.android.synthetic.main.team_row.view.*
 
 class MainAdapter(val teamList:List<Team>): RecyclerView.Adapter<ViewHolder>() {
