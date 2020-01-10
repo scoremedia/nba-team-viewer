@@ -1,9 +1,7 @@
 package com.example.nba.Data
 
 import androidx.lifecycle.MutableLiveData
-import com.example.nba.MainAdapter
 import com.google.gson.GsonBuilder
-import kotlinx.android.synthetic.main.activity_main.*
 import okhttp3.*
 import java.io.IOException
 

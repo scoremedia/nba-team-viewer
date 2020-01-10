@@ -5,10 +5,13 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.nba.Data.Repo
 import com.example.nba.Data.Team
+import com.google.gson.GsonBuilder
 
 class teamViewModel() :ViewModel(){
 
         private var data = MutableLiveData<List<Team>>()
+        private var teamList:List<Team> = listOf(Team("theScore",1,0))
+
     init {
         data = Repo.getData()
 

@@ -1,23 +1,26 @@
 package com.example.nba.Ui.TeamList
 
-import android.graphics.Point
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.nba.Data.Repo
+import com.example.nba.Adapters.MainAdapter
+import com.example.nba.Adapters.clickListener
 import com.example.nba.Data.Team
-import com.example.nba.MainAdapter
 import com.example.nba.R
-import com.google.gson.GsonBuilder
+import kotlinx.android.parcel.Parcelize
 import kotlinx.android.synthetic.main.activity_main.*
-import okhttp3.*
-import java.io.IOException
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(),clickListener {
+    override fun onTeamClicked(pos:Int) {
+        val intent = Intent(this,DetailsActivity::class.java)
+        intent.putExtra("id",pos)
+        startActivity(intent)
+
+    }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,12 +32,11 @@ class MainActivity : AppCompatActivity() {
         val losses = "Losses"
         points.setText(wins)
         recyclerView_main.layoutManager = LinearLayoutManager(this)
-        recyclerView_main.adapter = MainAdapter(listOf())
+        recyclerView_main.adapter = MainAdapter(listOf(),this)
 
         //setting recycler view
         vM.getdata().observe(this, Observer {
-
-            recyclerView_main.adapter = MainAdapter(it)
+            recyclerView_main.adapter = MainAdapter(it,this)
         })
 //sort buttons
         imageButton.setOnClickListener { vM.sort() }
@@ -50,13 +52,9 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
-
-
-
-
-
     }
+
+
 
 
 
