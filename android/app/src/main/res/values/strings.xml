@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Nba</string>
     <string name="sort">Sort by</string>
+    <string name="wins">Wins</string>
+    <string name="losses">Losses</string>
+    <string name="num">Num:</string>
+    <string name="pos">Pos:</string>
+    <string name="winLabel">W:</string>
+    <string name="lossLabel">L:</string>
+
 </resources>

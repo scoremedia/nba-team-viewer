@@ -1,17 +1,21 @@
 package com.example.nba.Adapters
 
-import android.content.Intent
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.nba.Data.Team
 import com.example.nba.R
-import com.example.nba.Ui.TeamList.DetailsActivity
-import kotlinx.android.synthetic.main.player_row.view.*
 import kotlinx.android.synthetic.main.team_row.view.*
 
-class MainAdapter(val teamList:List<Team>,val listener: clickListener): RecyclerView.Adapter<ViewHolder>() {
+class MainAdapter(val context: Context,val listener: ClickListener): RecyclerView.Adapter<ViewHolder>() {
+    private var teams = listOf<Team>()
+    fun setItems(teamList:List<Team>){
+        this.teams = teamList
+        notifyDataSetChanged()
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         val cellForRow = layoutInflater.inflate(R.layout.team_row,parent,false)
@@ -20,24 +24,30 @@ class MainAdapter(val teamList:List<Team>,val listener: clickListener): Recycler
     }
 
     override fun getItemCount(): Int {
-        return teamList.count()
+        return teams.count()
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val w = "W: "
-        val l = "L: "
-        val team = teamList[position]
-        holder.itemView.teamName.text =  team.full_name
-        holder.itemView.teamWins.text = w + team.wins.toString()
-        holder.itemView.teamLosses.text = l + team.losses.toString()
-        holder.itemView.setOnClickListener {
-            listener.onTeamClicked(position)
+        val w = context.getString(R.string.winLabel)
+        val l = context.getString(R.string.lossLabel)
+        val team = teams[position]
+
+        with(holder.itemView){
+            this.teamName.text = "${team.full_name}"
+            this.teamWins.text = "${w} ${team.wins.toString()}"
+            this.teamLosses.text = "${l} ${team.losses.toString()}"
+            this.setOnClickListener {
+                listener.onTeamClicked(position)
+            }
+
         }
 
 
 
 
     }
+
+
 }
 
 class ViewHolder(v: View): RecyclerView.ViewHolder(v) {
@@ -46,6 +56,6 @@ class ViewHolder(v: View): RecyclerView.ViewHolder(v) {
 
 }
 
-interface clickListener{
+interface ClickListener{
     fun onTeamClicked(pos:Int)
 }

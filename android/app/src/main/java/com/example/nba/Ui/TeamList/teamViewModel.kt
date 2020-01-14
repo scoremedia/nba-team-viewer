@@ -7,28 +7,28 @@ import com.example.nba.Data.Repo
 import com.example.nba.Data.Team
 import com.google.gson.GsonBuilder
 
-class teamViewModel() :ViewModel(){
+class teamViewModel :ViewModel(){
 
-        private var data = MutableLiveData<List<Team>>()
-        private var teamList:List<Team> = listOf(Team("theScore",1,0))
+        private var _data = MutableLiveData<List<Team>>()
+        val data:LiveData<List<Team>>
+            get() = _data
+        private val repo = Repo()
 
-    init {
-        data = Repo.getData()
+
+    fun loadData() {
+        _data = repo.getData()
 
     }
 
-    fun getdata():LiveData<List<Team>>{
-        return data
-    }
     fun sort(){
-        data.value = data.value?.sortedBy { it.full_name }
+        _data.value = _data.value?.sortedBy { it.full_name }
     }
 
     fun sortWins(){
-        data.value = data.value?.sortedByDescending { it.wins }
+        _data.value = _data.value?.sortedByDescending { it.wins }
     }
     fun sortLosses(){
-        data.value = data.value?.sortedByDescending { it.losses }
+        _data.value = _data.value?.sortedByDescending { it.losses }
     }
 
 

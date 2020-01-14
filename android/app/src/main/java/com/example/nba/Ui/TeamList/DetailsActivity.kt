@@ -11,25 +11,36 @@ import com.example.nba.R
 import kotlinx.android.synthetic.main.activity_details.*
 
 class DetailsActivity : AppCompatActivity() {
+    lateinit var team: Team
+    val detailsAdapter = DetailsAdapter(this)
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
-        var team = Team("Score",1,0)
-        val id:Int = intent.extras?.get("id") as Int
-        val vM = ViewModelProviders.of(this).get(teamViewModel::class.java)
-        rV.layoutManager = LinearLayoutManager(this)
-        rV.adapter = DetailsAdapter(listOf())
-        vM.getdata().observe(this, Observer {
-            team = it[id]
-            tW.text = team.wins.toString()
-            tN.text = team.full_name
-            tL.text = team.losses.toString()
-            rV.adapter = DetailsAdapter(team.players)
+        val id:Int = intent.extras?.get(KEY_ID) as Int
 
+        val detailViewModel = ViewModelProviders.of(this).get(teamViewModel::class.java)
+        detailViewModel.loadData()
+
+
+        recyclerViewPlayers.layoutManager = LinearLayoutManager(this)
+        recyclerViewPlayers.adapter = detailsAdapter
+
+        detailViewModel.data.observe(this, Observer {
+            onData(it,id)
         })
 
 
+
+    }
+
+    private fun onData(data:List<Team>?,id:Int){
+        team = data?.get(id) ?: Team("theScore",1,0)
+        teamWinsDetail.text = team.wins.toString()
+        teamNameDeatil.text = team.full_name
+        teamLossesDetail.text = team.losses.toString()
+        detailsAdapter.setItems(team.players)
     }
 }
 

@@ -1,23 +1,28 @@
 package com.example.nba.Data
 
+import android.content.Context
+import android.net.ConnectivityManager
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import com.google.gson.GsonBuilder
 import okhttp3.*
 import java.io.IOException
 
 
-//Singleton
 
-object Repo {
+class Repo {
 
     private var teamList:List<Team> = listOf(Team("theScore",1,0))
     private var data = MutableLiveData<List<Team>>()
+
+
 
     fun getData(): MutableLiveData<List<Team>> {
         println("called")
         fetch()
         return data
     }
+
 
 
 
@@ -28,7 +33,7 @@ object Repo {
         val client = OkHttpClient()
         client.newCall(request).enqueue(object: Callback {
             override fun onFailure(call: Call, e: IOException) {
-                println(e)
+                Log.e("Exception", e.toString())
 
 
 

@@ -7,17 +7,19 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.nba.Adapters.MainAdapter
-import com.example.nba.Adapters.clickListener
-import com.example.nba.Data.Team
+import com.example.nba.Adapters.ClickListener
 import com.example.nba.R
-import kotlinx.android.parcel.Parcelize
 import kotlinx.android.synthetic.main.activity_main.*
 
+const val KEY_ID = "id"
 
-class MainActivity : AppCompatActivity(),clickListener {
+
+class MainActivity : AppCompatActivity(),ClickListener {
+
     override fun onTeamClicked(pos:Int) {
-        val intent = Intent(this,DetailsActivity::class.java)
-        intent.putExtra("id",pos)
+        val intent = Intent(this,DetailsActivity::class.java).apply {
+            putExtra(KEY_ID,pos)
+        }
         startActivity(intent)
 
     }
@@ -26,27 +28,33 @@ class MainActivity : AppCompatActivity(),clickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val vM = ViewModelProviders.of(this).get(teamViewModel::class.java)
 
-        val wins = "Wins"
-        val losses = "Losses"
-        points.setText(wins)
+        val viewModel = ViewModelProviders.of(this).get(teamViewModel::class.java)
+        if (savedInstanceState == null) {
+              viewModel.loadData()
+            }
+
+        val wins = getString(R.string.wins)
+        val losses = getString(R.string.losses)
+        points.text = wins
         recyclerView_main.layoutManager = LinearLayoutManager(this)
-        recyclerView_main.adapter = MainAdapter(listOf(),this)
+        val mainAdapter = MainAdapter(this,this)
+        recyclerView_main.adapter = mainAdapter
+
 
         //setting recycler view
-        vM.getdata().observe(this, Observer {
-            recyclerView_main.adapter = MainAdapter(it,this)
+        viewModel.data.observe(this, Observer {
+            mainAdapter.setItems(it)
         })
 //sort buttons
-        imageButton.setOnClickListener { vM.sort() }
+        imageButton.setOnClickListener { viewModel.sort() }
         points.setOnClickListener{
             if (points.text == wins){
-                vM.sortWins()
+                viewModel.sortWins()
                 points.text = losses
             }
             else{
-                vM.sortLosses()
+                viewModel.sortLosses()
                 points.text = wins
             }
         }
