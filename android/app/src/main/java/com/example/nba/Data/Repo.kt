@@ -18,7 +18,6 @@ class Repo {
 
 
     fun getData(): MutableLiveData<List<Team>> {
-        println("called")
         fetch()
         return data
     }
