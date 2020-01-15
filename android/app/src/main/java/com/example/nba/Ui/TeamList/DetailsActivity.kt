@@ -18,7 +18,7 @@ class DetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_details)
-        val id:Int = intent.extras?.get(KEY_ID) as Int
+        val id:Int? = intent.extras?.get(KEY_ID) as? Int
 
         val detailViewModel = ViewModelProviders.of(this).get(teamViewModel::class.java)
         detailViewModel.loadData()
@@ -35,7 +35,9 @@ class DetailsActivity : AppCompatActivity() {
 
     }
 
-    private fun onData(data:List<Team>?,id:Int){
+    private fun onData(data:List<Team>?,id:Int?){
+        if(id == null) return
+
         team = data?.get(id) ?: Team("theScore",1,0)
         teamWinsDetail.text = team.wins.toString()
         teamNameDeatil.text = team.full_name

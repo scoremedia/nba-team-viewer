@@ -1,6 +1,7 @@
 package com.example.nba.Adapters
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,6 +11,12 @@ import com.example.nba.R
 import kotlinx.android.synthetic.main.team_row.view.*
 
 class MainAdapter(val context: Context,val listener: ClickListener): RecyclerView.Adapter<ViewHolder>() {
+    override fun onViewRecycled(holder: ViewHolder) {
+        super.onViewRecycled(holder)
+        holder.unsetListener()
+
+    }
+
     private var teams = listOf<Team>()
     fun setItems(teamList:List<Team>){
         this.teams = teamList
@@ -48,12 +55,15 @@ class MainAdapter(val context: Context,val listener: ClickListener): RecyclerVie
     }
 
 
+
 }
 
-class ViewHolder(v: View): RecyclerView.ViewHolder(v) {
+class ViewHolder(val v: View): RecyclerView.ViewHolder(v) {
 
-
-
+    fun unsetListener(){
+        v.setOnClickListener(null)
+        Log.i("ViewHolder","called")
+    }
 }
 
 interface ClickListener{
