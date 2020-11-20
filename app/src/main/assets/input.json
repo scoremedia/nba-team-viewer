@@ -1,0 +1,3707 @@
+[
+  {
+    "wins": 45,
+    "losses": 20,
+    "full_name": "Boston Celtics",
+    "id": 1,
+    "players": [
+      {
+        "id": 37729,
+        "first_name": "Kadeem",
+        "last_name": "Allen",
+        "position": "SG",
+        "number": 45
+      },
+      {
+        "id": 30508,
+        "first_name": "Aron",
+        "last_name": "Baynes",
+        "position": "C",
+        "number": 46
+      },
+      {
+        "id": 30847,
+        "first_name": "Jabari",
+        "last_name": "Bird",
+        "position": "SG",
+        "number": 26
+      },
+      {
+        "id": 45455,
+        "first_name": "Jaylen",
+        "last_name": "Brown",
+        "position": "G-F",
+        "number": 7
+      },
+      {
+        "id": 989,
+        "first_name": "Gordon",
+        "last_name": "Hayward",
+        "position": "G-F",
+        "number": 20
+      },
+      {
+        "id": 12,
+        "first_name": "Al",
+        "last_name": "Horford",
+        "position": "F-C",
+        "number": 42
+      },
+      {
+        "id": 6154,
+        "first_name": "Kyrie",
+        "last_name": "Irving",
+        "position": "G",
+        "number": 11
+      },
+      {
+        "id": 12714,
+        "first_name": "Shane",
+        "last_name": "Larkin",
+        "position": "PG",
+        "number": 8
+      },
+      {
+        "id": 1965,
+        "first_name": "Greg",
+        "last_name": "Monroe",
+        "position": "F-C",
+        "number": 55
+      },
+      {
+        "id": 2444,
+        "first_name": "Marcus",
+        "last_name": "Morris",
+        "position": "F",
+        "number": 13
+      },
+      {
+        "id": 12275,
+        "first_name": "Abdel",
+        "last_name": "Nader",
+        "position": "PF",
+        "number": 28
+      },
+      {
+        "id": 31438,
+        "first_name": "Semi",
+        "last_name": "Ojeleye",
+        "position": "F",
+        "number": 37
+      },
+      {
+        "id": 31126,
+        "first_name": "Terry",
+        "last_name": "Rozier",
+        "position": "G",
+        "number": 12
+      },
+      {
+        "id": 24740,
+        "first_name": "Marcus",
+        "last_name": "Smart",
+        "position": "G",
+        "number": 36
+      },
+      {
+        "id": 52651,
+        "first_name": "Jayson",
+        "last_name": "Tatum",
+        "position": "F",
+        "number": 0
+      },
+      {
+        "id": 60058,
+        "first_name": "Daniel",
+        "last_name": "Theis",
+        "position": "F-C",
+        "number": 27
+      },
+      {
+        "id": 52283,
+        "first_name": "Guerschon",
+        "last_name": "Yabusele",
+        "position": "F",
+        "number": 30
+      }
+    ]
+  },
+  {
+    "wins": 20,
+    "losses": 44,
+    "full_name": "Brooklyn Nets",
+    "id": 2,
+    "players": [
+      {
+        "id": 802,
+        "first_name": "Quincy",
+        "last_name": "Acy",
+        "position": "F",
+        "number": 13
+      },
+      {
+        "id": 53393,
+        "first_name": "Jarrett",
+        "last_name": "Allen",
+        "position": "F-C",
+        "number": 31
+      },
+      {
+        "id": 233,
+        "first_name": "DeMarre",
+        "last_name": "Carroll",
+        "position": "F",
+        "number": 9
+      },
+      {
+        "id": 5912,
+        "first_name": "Allen",
+        "last_name": "Crabbe",
+        "position": "G-F",
+        "number": 33
+      },
+      {
+        "id": 415,
+        "first_name": "Dante",
+        "last_name": "Cunningham",
+        "position": "F",
+        "number": 44
+      },
+      {
+        "id": 11989,
+        "first_name": "Spencer",
+        "last_name": "Dinwiddie",
+        "position": "PG",
+        "number": 8
+      },
+      {
+        "id": 24692,
+        "first_name": "Milton",
+        "last_name": "Doyle",
+        "position": "PG",
+        "number": 14
+      },
+      {
+        "id": 5967,
+        "first_name": "Joe",
+        "last_name": "Harris",
+        "position": "G-F",
+        "number": 12
+      },
+      {
+        "id": 30838,
+        "first_name": "Rondae",
+        "last_name": "Hollis-Jefferson",
+        "position": "F",
+        "number": 24
+      },
+      {
+        "id": 24860,
+        "first_name": "Caris",
+        "last_name": "LeVert",
+        "position": "SF",
+        "number": 22
+      },
+      {
+        "id": 2109,
+        "first_name": "Jeremy",
+        "last_name": "Lin",
+        "position": "G",
+        "number": 7
+      },
+      {
+        "id": 6330,
+        "first_name": "Timofey",
+        "last_name": "Mozgov",
+        "position": "C",
+        "number": 20
+      },
+      {
+        "id": 37621,
+        "first_name": "Jahlil",
+        "last_name": "Okafor",
+        "position": "C",
+        "number": 4
+      },
+      {
+        "id": 37752,
+        "first_name": "D'Angelo",
+        "last_name": "Russell",
+        "position": "G",
+        "number": 1
+      },
+      {
+        "id": 24863,
+        "first_name": "Nik",
+        "last_name": "Stauskas",
+        "position": "G-F",
+        "number": 2
+      },
+      {
+        "id": 32213,
+        "first_name": "James",
+        "last_name": "Webb III",
+        "position": "SF",
+        "number": 0
+      },
+      {
+        "id": 37705,
+        "first_name": "Isaiah",
+        "last_name": "Whitehead",
+        "position": "G",
+        "number": 15
+      }
+    ]
+  },
+  {
+    "wins": 24,
+    "losses": 40,
+    "full_name": "New York Knicks",
+    "id": 3,
+    "players": [
+      {
+        "id": 12606,
+        "first_name": "Ron",
+        "last_name": "Baker",
+        "position": "G",
+        "number": 31
+      },
+      {
+        "id": 248,
+        "first_name": "Michael",
+        "last_name": "Beasley",
+        "position": "F",
+        "number": 8
+      },
+      {
+        "id": 11734,
+        "first_name": "Trey",
+        "last_name": "Burke",
+        "position": "PG",
+        "number": 23
+      },
+      {
+        "id": 24746,
+        "first_name": "Damyean",
+        "last_name": "Dotson",
+        "position": "SG",
+        "number": 21
+      },
+      {
+        "id": 6179,
+        "first_name": "Tim",
+        "last_name": "Hardaway Jr.",
+        "position": "G-F",
+        "number": 3
+      },
+      {
+        "id": 31411,
+        "first_name": "Isaiah",
+        "last_name": "Hicks",
+        "position": "PF",
+        "number": 4
+      },
+      {
+        "id": 461,
+        "first_name": "Jarrett",
+        "last_name": "Jack",
+        "position": "G",
+        "number": 55
+      },
+      {
+        "id": 6456,
+        "first_name": "Enes",
+        "last_name": "Kanter",
+        "position": "C",
+        "number": 0
+      },
+      {
+        "id": 30792,
+        "first_name": "Luke",
+        "last_name": "Kornet",
+        "position": "F-C",
+        "number": 2
+      },
+      {
+        "id": 301,
+        "first_name": "Courtney",
+        "last_name": "Lee",
+        "position": "G-F",
+        "number": 5
+      },
+      {
+        "id": 44890,
+        "first_name": "Emmanuel",
+        "last_name": "Mudiay",
+        "position": "PG",
+        "number": 1
+      },
+      {
+        "id": 61,
+        "first_name": "Joakim",
+        "last_name": "Noah",
+        "position": "F-C",
+        "number": 13
+      },
+      {
+        "id": 60048,
+        "first_name": "Frank",
+        "last_name": "Ntilikina",
+        "position": "PG",
+        "number": 11
+      },
+      {
+        "id": 3372,
+        "first_name": "Kyle",
+        "last_name": "O'Quinn",
+        "position": "F-C",
+        "number": 9
+      },
+      {
+        "id": 44888,
+        "first_name": "Kristaps",
+        "last_name": "Porzingis",
+        "position": "F-C",
+        "number": 6
+      },
+      {
+        "id": 1635,
+        "first_name": "Lance",
+        "last_name": "Thomas",
+        "position": "G-F",
+        "number": 42
+      },
+      {
+        "id": 31111,
+        "first_name": "Troy",
+        "last_name": "Williams",
+        "position": "G-F",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "wins": 34,
+    "losses": 28,
+    "full_name": "Philadelphia 76ers",
+    "id": 4,
+    "players": [
+      {
+        "id": 24810,
+        "first_name": "Justin",
+        "last_name": "Anderson",
+        "position": "SF",
+        "number": 1
+      },
+      {
+        "id": 411,
+        "first_name": "Jerryd",
+        "last_name": "Bayless",
+        "position": "G",
+        "number": 0
+      },
+      {
+        "id": 468,
+        "first_name": "Marco",
+        "last_name": "Belinelli",
+        "position": "G-F",
+        "number": 18
+      },
+      {
+        "id": 4724,
+        "first_name": "Robert",
+        "last_name": "Covington",
+        "position": "F",
+        "number": 33
+      },
+      {
+        "id": 31932,
+        "first_name": "Joel",
+        "last_name": "Embiid",
+        "position": "F-C",
+        "number": 21
+      },
+      {
+        "id": 53534,
+        "first_name": "Markelle",
+        "last_name": "Fultz",
+        "position": "G",
+        "number": 20
+      },
+      {
+        "id": 24525,
+        "first_name": "Richaun",
+        "last_name": "Holmes",
+        "position": "F-C",
+        "number": 22
+      },
+      {
+        "id": 265,
+        "first_name": "Ersan",
+        "last_name": "Ilyasova",
+        "position": "F",
+        "number": 23
+      },
+      {
+        "id": 30801,
+        "first_name": "Demetrius",
+        "last_name": "Jackson",
+        "position": "PG",
+        "number": 11
+      },
+      {
+        "id": 462,
+        "first_name": "Amir",
+        "last_name": "Johnson",
+        "position": "F-C",
+        "number": 5
+      },
+      {
+        "id": 52286,
+        "first_name": "Furkan",
+        "last_name": "Korkmaz",
+        "position": "SG",
+        "number": 30
+      },
+      {
+        "id": 52285,
+        "first_name": "Timothé",
+        "last_name": "Luwawu-Cabarrot",
+        "position": "G-F",
+        "number": 7
+      },
+      {
+        "id": 6158,
+        "first_name": "T.J.",
+        "last_name": "McConnell",
+        "position": "PG",
+        "number": 12
+      },
+      {
+        "id": 366,
+        "first_name": "JJ",
+        "last_name": "Redick",
+        "position": "SG",
+        "number": 17
+      },
+      {
+        "id": 37598,
+        "first_name": "Dario",
+        "last_name": "Saric",
+        "position": "F-C",
+        "number": 9
+      },
+      {
+        "id": 45002,
+        "first_name": "Ben",
+        "last_name": "Simmons",
+        "position": "PG",
+        "number": 25
+      },
+      {
+        "id": 31120,
+        "first_name": "James",
+        "last_name": "Young",
+        "position": "SG",
+        "number": 8
+      }
+    ]
+  },
+  {
+    "wins": 45,
+    "losses": 17,
+    "full_name": "Toronto Raptors",
+    "id": 5,
+    "players": [
+      {
+        "id": 46480,
+        "first_name": "OG",
+        "last_name": "Anunoby",
+        "position": "F",
+        "number": 3
+      },
+      {
+        "id": 5831,
+        "first_name": "Lorenzo",
+        "last_name": "Brown",
+        "position": "PG",
+        "number": 4
+      },
+      {
+        "id": 470,
+        "first_name": "DeMar",
+        "last_name": "DeRozan",
+        "position": "G-F",
+        "number": 10
+      },
+      {
+        "id": 348,
+        "first_name": "Serge",
+        "last_name": "Ibaka",
+        "position": "F-C",
+        "number": 9
+      },
+      {
+        "id": 160,
+        "first_name": "Kyle",
+        "last_name": "Lowry",
+        "position": "PG",
+        "number": 7
+      },
+      {
+        "id": 7038,
+        "first_name": "Alfonzo",
+        "last_name": "McKinnie",
+        "position": "PF",
+        "number": 34
+      },
+      {
+        "id": 479,
+        "first_name": "C.J.",
+        "last_name": "Miles",
+        "position": "G-F",
+        "number": 0
+      },
+      {
+        "id": 11538,
+        "first_name": "Malcolm",
+        "last_name": "Miller",
+        "position": "PF",
+        "number": 13
+      },
+      {
+        "id": 30612,
+        "first_name": "Lucas",
+        "last_name": "Nogueira",
+        "position": "F-C",
+        "number": 92
+      },
+      {
+        "id": 37800,
+        "first_name": "Jakob",
+        "last_name": "Poeltl",
+        "position": "C",
+        "number": 42
+      },
+      {
+        "id": 12144,
+        "first_name": "Norman",
+        "last_name": "Powell",
+        "position": "G-F",
+        "number": 24
+      },
+      {
+        "id": 45093,
+        "first_name": "Malachi",
+        "last_name": "Richardson",
+        "position": "SG",
+        "number": 22
+      },
+      {
+        "id": 39061,
+        "first_name": "Pascal",
+        "last_name": "Siakam",
+        "position": "PF",
+        "number": 43
+      },
+      {
+        "id": 11051,
+        "first_name": "Jonas",
+        "last_name": "Valanciunas",
+        "position": "C",
+        "number": 17
+      },
+      {
+        "id": 25275,
+        "first_name": "Fred",
+        "last_name": "VanVleet",
+        "position": "PG",
+        "number": 23
+      },
+      {
+        "id": 30765,
+        "first_name": "Delon",
+        "last_name": "Wright",
+        "position": "G",
+        "number": 55
+      }
+    ]
+  },
+  {
+    "wins": 21,
+    "losses": 42,
+    "full_name": "Chicago Bulls",
+    "id": 6,
+    "players": [
+      {
+        "id": 24806,
+        "first_name": "Ryan",
+        "last_name": "Arcidiacono",
+        "position": "PG",
+        "number": 15
+      },
+      {
+        "id": 6329,
+        "first_name": "Omer",
+        "last_name": "Asik",
+        "position": "F-C",
+        "number": 3
+      },
+      {
+        "id": 45000,
+        "first_name": "Antonio",
+        "last_name": "Blakeney",
+        "position": "PG",
+        "number": 9
+      },
+      {
+        "id": 24864,
+        "first_name": "Kris",
+        "last_name": "Dunn",
+        "position": "G",
+        "number": 32
+      },
+      {
+        "id": 6324,
+        "first_name": "Jarell",
+        "last_name": "Eddie",
+        "position": "SG",
+        "number": 31
+      },
+      {
+        "id": 44903,
+        "first_name": "Cristiano",
+        "last_name": "Felicio",
+        "position": "C",
+        "number": 6
+      },
+      {
+        "id": 6292,
+        "first_name": "Jerian",
+        "last_name": "Grant",
+        "position": "G",
+        "number": 2
+      },
+      {
+        "id": 5311,
+        "first_name": "Justin",
+        "last_name": "Holiday",
+        "position": "G-F",
+        "number": 7
+      },
+      {
+        "id": 30738,
+        "first_name": "Zach",
+        "last_name": "LaVine",
+        "position": "G",
+        "number": 8
+      },
+      {
+        "id": 395,
+        "first_name": "Robin",
+        "last_name": "Lopez",
+        "position": "C",
+        "number": 42
+      },
+      {
+        "id": 53404,
+        "first_name": "Lauri",
+        "last_name": "Markkanen",
+        "position": "PF",
+        "number": 24
+      },
+      {
+        "id": 31167,
+        "first_name": "David",
+        "last_name": "Nwaba",
+        "position": "G-F",
+        "number": 11
+      },
+      {
+        "id": 31408,
+        "first_name": "Cameron",
+        "last_name": "Payne",
+        "position": "PG",
+        "number": 22
+      },
+      {
+        "id": 30845,
+        "first_name": "Bobby",
+        "last_name": "Portis",
+        "position": "F-C",
+        "number": 5
+      },
+      {
+        "id": 25550,
+        "first_name": "Denzel",
+        "last_name": "Valentine",
+        "position": "G-F",
+        "number": 45
+      },
+      {
+        "id": 31110,
+        "first_name": "Noah",
+        "last_name": "Vonleh",
+        "position": "PF",
+        "number": 30
+      },
+      {
+        "id": 52292,
+        "first_name": "Paul",
+        "last_name": "Zipser",
+        "position": "F",
+        "number": 16
+      }
+    ]
+  },
+  {
+    "wins": 37,
+    "losses": 26,
+    "full_name": "Cleveland Cavaliers",
+    "id": 7,
+    "players": [
+      {
+        "id": 463,
+        "first_name": "José",
+        "last_name": "Calderón",
+        "position": "PG",
+        "number": 81
+      },
+      {
+        "id": 6245,
+        "first_name": "Jordan",
+        "last_name": "Clarkson",
+        "position": "G",
+        "number": 8
+      },
+      {
+        "id": 346,
+        "first_name": "Jeff",
+        "last_name": "Green",
+        "position": "F",
+        "number": 32
+      },
+      {
+        "id": 448,
+        "first_name": "George",
+        "last_name": "Hill",
+        "position": "G",
+        "number": 3
+      },
+      {
+        "id": 888,
+        "first_name": "John",
+        "last_name": "Holland",
+        "position": "SG",
+        "number": 10
+      },
+      {
+        "id": 11382,
+        "first_name": "Rodney",
+        "last_name": "Hood",
+        "position": "G-F",
+        "number": 1
+      },
+      {
+        "id": 72,
+        "first_name": "LeBron",
+        "last_name": "James",
+        "position": "F",
+        "number": 23
+      },
+      {
+        "id": 477,
+        "first_name": "Kyle",
+        "last_name": "Korver",
+        "position": "G-F",
+        "number": 26
+      },
+      {
+        "id": 283,
+        "first_name": "Kevin",
+        "last_name": "Love",
+        "position": "F-C",
+        "number": 0
+      },
+      {
+        "id": 11516,
+        "first_name": "Larry",
+        "last_name": "Nance Jr.",
+        "position": "F-C",
+        "number": 22
+      },
+      {
+        "id": 44892,
+        "first_name": "Cedi",
+        "last_name": "Osman",
+        "position": "F",
+        "number": 16
+      },
+      {
+        "id": 30649,
+        "first_name": "London",
+        "last_name": "Perrantes",
+        "position": "PG",
+        "number": 15
+      },
+      {
+        "id": 112,
+        "first_name": "J.R.",
+        "last_name": "Smith",
+        "position": "G-F",
+        "number": 5
+      },
+      {
+        "id": 6364,
+        "first_name": "Tristan",
+        "last_name": "Thompson",
+        "position": "F-C",
+        "number": 13
+      },
+      {
+        "id": 52284,
+        "first_name": "Ante",
+        "last_name": "Zizic",
+        "position": "C",
+        "number": 41
+      }
+    ]
+  },
+  {
+    "wins": 29,
+    "losses": 35,
+    "full_name": "Detroit Pistons",
+    "id": 8,
+    "players": [
+      {
+        "id": 6286,
+        "first_name": "Reggie",
+        "last_name": "Bullock",
+        "position": "G-F",
+        "number": 25
+      },
+      {
+        "id": 2810,
+        "first_name": "Dwight",
+        "last_name": "Buycks",
+        "position": "PG",
+        "number": 20
+      },
+      {
+        "id": 12400,
+        "first_name": "Andre",
+        "last_name": "Drummond",
+        "position": "F-C",
+        "number": 0
+      },
+      {
+        "id": 45177,
+        "first_name": "Henry",
+        "last_name": "Ellenson",
+        "position": "PF",
+        "number": 8
+      },
+      {
+        "id": 11256,
+        "first_name": "James",
+        "last_name": "Ennis III",
+        "position": "G-F",
+        "number": 33
+      },
+      {
+        "id": 31301,
+        "first_name": "Kay",
+        "last_name": "Felder",
+        "position": "PG",
+        "number": 22
+      },
+      {
+        "id": 6129,
+        "first_name": "Langston",
+        "last_name": "Galloway",
+        "position": "G",
+        "number": 9
+      },
+      {
+        "id": 202,
+        "first_name": "Blake",
+        "last_name": "Griffin",
+        "position": "F-C",
+        "number": 23
+      },
+      {
+        "id": 3627,
+        "first_name": "Reggie",
+        "last_name": "Hearn",
+        "position": "SG",
+        "number": 38
+      },
+      {
+        "id": 874,
+        "first_name": "Reggie",
+        "last_name": "Jackson",
+        "position": "G",
+        "number": 1
+      },
+      {
+        "id": 37772,
+        "first_name": "Stanley",
+        "last_name": "Johnson",
+        "position": "G-F",
+        "number": 7
+      },
+      {
+        "id": 44933,
+        "first_name": "Luke",
+        "last_name": "Kennard",
+        "position": "SG",
+        "number": 5
+      },
+      {
+        "id": 5488,
+        "first_name": "Jon",
+        "last_name": "Leuer",
+        "position": "F-C",
+        "number": 30
+      },
+      {
+        "id": 6473,
+        "first_name": "Eric",
+        "last_name": "Moreland",
+        "position": "PF",
+        "number": 24
+      },
+      {
+        "id": 363,
+        "first_name": "Jameer",
+        "last_name": "Nelson",
+        "position": "PG",
+        "number": 41
+      },
+      {
+        "id": 5300,
+        "first_name": "Ish",
+        "last_name": "Smith",
+        "position": "PG",
+        "number": 14
+      },
+      {
+        "id": 5581,
+        "first_name": "Anthony",
+        "last_name": "Tolliver",
+        "position": "F",
+        "number": 43
+      }
+    ]
+  },
+  {
+    "wins": 37,
+    "losses": 27,
+    "full_name": "Indiana Pacers",
+    "id": 9,
+    "players": [
+      {
+        "id": 53245,
+        "first_name": "Ike",
+        "last_name": "Anigbogu",
+        "position": "C",
+        "number": 13
+      },
+      {
+        "id": 11056,
+        "first_name": "Bojan",
+        "last_name": "Bogdanovic",
+        "position": "G-F",
+        "number": 44
+      },
+      {
+        "id": 1309,
+        "first_name": "Trevor",
+        "last_name": "Booker",
+        "position": "F-C",
+        "number": 20
+      },
+      {
+        "id": 319,
+        "first_name": "Darren",
+        "last_name": "Collison",
+        "position": "G",
+        "number": 2
+      },
+      {
+        "id": 276,
+        "first_name": "Al",
+        "last_name": "Jefferson",
+        "position": "F-C",
+        "number": 25
+      },
+      {
+        "id": 6363,
+        "first_name": "Cory",
+        "last_name": "Joseph",
+        "position": "PG",
+        "number": 6
+      },
+      {
+        "id": 53247,
+        "first_name": "TJ",
+        "last_name": "Leaf",
+        "position": "PF",
+        "number": 22
+      },
+      {
+        "id": 30646,
+        "first_name": "Ben",
+        "last_name": "Moore",
+        "position": "SF",
+        "number": 26
+      },
+      {
+        "id": 6390,
+        "first_name": "Victor",
+        "last_name": "Oladipo",
+        "position": "G",
+        "number": 4
+      },
+      {
+        "id": 24887,
+        "first_name": "Alex",
+        "last_name": "Poythress",
+        "position": "SF",
+        "number": 0
+      },
+      {
+        "id": 24862,
+        "first_name": "Glenn",
+        "last_name": "Robinson III",
+        "position": "G-F",
+        "number": 40
+      },
+      {
+        "id": 38429,
+        "first_name": "Domantas",
+        "last_name": "Sabonis",
+        "position": "F-C",
+        "number": 11
+      },
+      {
+        "id": 1274,
+        "first_name": "Lance",
+        "last_name": "Stephenson",
+        "position": "G-F",
+        "number": 1
+      },
+      {
+        "id": 37728,
+        "first_name": "Edmond",
+        "last_name": "Sumner",
+        "position": "PG",
+        "number": 5
+      },
+      {
+        "id": 37711,
+        "first_name": "Myles",
+        "last_name": "Turner",
+        "position": "F-C",
+        "number": 33
+      },
+      {
+        "id": 380,
+        "first_name": "Thaddeus",
+        "last_name": "Young",
+        "position": "F",
+        "number": 21
+      },
+      {
+        "id": 6480,
+        "first_name": "Joe",
+        "last_name": "Young",
+        "position": "G",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "wins": 34,
+    "losses": 30,
+    "full_name": "Milwaukee Bucks",
+    "id": 10,
+    "players": [
+      {
+        "id": 30611,
+        "first_name": "Giannis",
+        "last_name": "Antetokounmpo",
+        "position": "F",
+        "number": 34
+      },
+      {
+        "id": 2497,
+        "first_name": "Eric",
+        "last_name": "Bledsoe",
+        "position": "G",
+        "number": 6
+      },
+      {
+        "id": 11101,
+        "first_name": "Malcolm",
+        "last_name": "Brogdon",
+        "position": "G",
+        "number": 13
+      },
+      {
+        "id": 30644,
+        "first_name": "Sterling",
+        "last_name": "Brown",
+        "position": "G-F",
+        "number": 23
+      },
+      {
+        "id": 4138,
+        "first_name": "Matthew",
+        "last_name": "Dellavedova",
+        "position": "G",
+        "number": 8
+      },
+      {
+        "id": 3387,
+        "first_name": "John",
+        "last_name": "Henson",
+        "position": "F-C",
+        "number": 31
+      },
+      {
+        "id": 52280,
+        "first_name": "Thon",
+        "last_name": "Maker",
+        "position": "F-C",
+        "number": 7
+      },
+      {
+        "id": 4789,
+        "first_name": "Khris",
+        "last_name": "Middleton",
+        "position": "G-F",
+        "number": 22
+      },
+      {
+        "id": 24785,
+        "first_name": "Shabazz",
+        "last_name": "Muhammad",
+        "position": "G-F",
+        "number": 15
+      },
+      {
+        "id": 24754,
+        "first_name": "Xavier",
+        "last_name": "Munford",
+        "position": "SG",
+        "number": 0
+      },
+      {
+        "id": 31065,
+        "first_name": "Jabari",
+        "last_name": "Parker",
+        "position": "F",
+        "number": 12
+      },
+      {
+        "id": 11069,
+        "first_name": "Marshall",
+        "last_name": "Plumlee",
+        "position": "C",
+        "number": 40
+      },
+      {
+        "id": 6059,
+        "first_name": "Tony",
+        "last_name": "Snell",
+        "position": "G-F",
+        "number": 21
+      },
+      {
+        "id": 24310,
+        "first_name": "Mirza",
+        "last_name": "Teletovic",
+        "position": "F",
+        "number": 35
+      },
+      {
+        "id": 91,
+        "first_name": "Jason",
+        "last_name": "Terry",
+        "position": "G",
+        "number": 3
+      },
+      {
+        "id": 37735,
+        "first_name": "D.J.",
+        "last_name": "Wilson",
+        "position": "PF",
+        "number": 5
+      },
+      {
+        "id": 3396,
+        "first_name": "Tyler",
+        "last_name": "Zeller",
+        "position": "F-C",
+        "number": 44
+      }
+    ]
+  },
+  {
+    "wins": 20,
+    "losses": 44,
+    "full_name": "Atlanta Hawks",
+    "id": 11,
+    "players": [
+      {
+        "id": 3738,
+        "first_name": "Kent",
+        "last_name": "Bazemore",
+        "position": "G-F",
+        "number": 24
+      },
+      {
+        "id": 32145,
+        "first_name": "DeAndre'",
+        "last_name": "Bembry",
+        "position": "SF",
+        "number": 95
+      },
+      {
+        "id": 24257,
+        "first_name": "Tyler",
+        "last_name": "Cavanaugh",
+        "position": "F-C",
+        "number": 34
+      },
+      {
+        "id": 31423,
+        "first_name": "Antonius",
+        "last_name": "Cleveland",
+        "position": "SG",
+        "number": 0
+      },
+      {
+        "id": 45122,
+        "first_name": "John",
+        "last_name": "Collins",
+        "position": "F-C",
+        "number": 20
+      },
+      {
+        "id": 11849,
+        "first_name": "Dewayne",
+        "last_name": "Dedmon",
+        "position": "C",
+        "number": 14
+      },
+      {
+        "id": 5269,
+        "first_name": "Malcolm",
+        "last_name": "Delaney",
+        "position": "G",
+        "number": 5
+      },
+      {
+        "id": 45984,
+        "first_name": "Tyler",
+        "last_name": "Dorsey",
+        "position": "PG",
+        "number": 2
+      },
+      {
+        "id": 53709,
+        "first_name": "Josh",
+        "last_name": "Magette",
+        "position": "PG",
+        "number": 11
+      },
+      {
+        "id": 48806,
+        "first_name": "Jaylen",
+        "last_name": "Morris",
+        "position": "SG",
+        "number": 3
+      },
+      {
+        "id": 966,
+        "first_name": "Mike",
+        "last_name": "Muscala",
+        "position": "F-C",
+        "number": 31
+      },
+      {
+        "id": 1631,
+        "first_name": "Miles",
+        "last_name": "Plumlee",
+        "position": "F-C",
+        "number": 18
+      },
+      {
+        "id": 24646,
+        "first_name": "Taurean",
+        "last_name": "Prince",
+        "position": "SF",
+        "number": 12
+      },
+      {
+        "id": 30613,
+        "first_name": "Dennis",
+        "last_name": "Schroder",
+        "position": "PG",
+        "number": 17
+      },
+      {
+        "id": 32158,
+        "first_name": "Isaiah",
+        "last_name": "Taylor",
+        "position": "PG",
+        "number": 22
+      },
+      {
+        "id": 24698,
+        "first_name": "Andrew",
+        "last_name": "White III",
+        "position": "SF",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "wins": 28,
+    "losses": 36,
+    "full_name": "Charlotte Hornets",
+    "id": 12,
+    "players": [
+      {
+        "id": 44946,
+        "first_name": "Dwayne",
+        "last_name": "Bacon",
+        "position": "SG",
+        "number": 7
+      },
+      {
+        "id": 412,
+        "first_name": "Nicolas",
+        "last_name": "Batum",
+        "position": "G-F",
+        "number": 5
+      },
+      {
+        "id": 12132,
+        "first_name": "Michael",
+        "last_name": "Carter-Williams",
+        "position": "PG",
+        "number": 10
+      },
+      {
+        "id": 12148,
+        "first_name": "Treveon",
+        "last_name": "Graham",
+        "position": "G-F",
+        "number": 21
+      },
+      {
+        "id": 44893,
+        "first_name": "Guillermo",
+        "last_name": "Hernangómez",
+        "position": "C",
+        "number": 41
+      },
+      {
+        "id": 362,
+        "first_name": "Dwight",
+        "last_name": "Howard",
+        "position": "F-C",
+        "number": 12
+      },
+      {
+        "id": 11869,
+        "first_name": "Frank",
+        "last_name": "Kaminsky",
+        "position": "F-C",
+        "number": 44
+      },
+      {
+        "id": 11374,
+        "first_name": "Michael",
+        "last_name": "Kidd-Gilchrist",
+        "position": "SF",
+        "number": 14
+      },
+      {
+        "id": 6380,
+        "first_name": "Jeremy",
+        "last_name": "Lamb",
+        "position": "G-F",
+        "number": 3
+      },
+      {
+        "id": 25840,
+        "first_name": "Mangok",
+        "last_name": "Mathiang",
+        "position": "F-C",
+        "number": 9
+      },
+      {
+        "id": 53736,
+        "first_name": "Malik",
+        "last_name": "Monk",
+        "position": "SG",
+        "number": 1
+      },
+      {
+        "id": 24725,
+        "first_name": "Marcus",
+        "last_name": "Paige",
+        "position": "PG",
+        "number": 4
+      },
+      {
+        "id": 5148,
+        "first_name": "Julyan",
+        "last_name": "Stone",
+        "position": "G-F",
+        "number": 32
+      },
+      {
+        "id": 1426,
+        "first_name": "Kemba",
+        "last_name": "Walker",
+        "position": "PG",
+        "number": 15
+      },
+      {
+        "id": 10,
+        "first_name": "Marvin",
+        "last_name": "Williams",
+        "position": "F",
+        "number": 2
+      },
+      {
+        "id": 11250,
+        "first_name": "Cody",
+        "last_name": "Zeller",
+        "position": "F-C",
+        "number": 40
+      }
+    ]
+  },
+  {
+    "wins": 34,
+    "losses": 30,
+    "full_name": "Miami Heat",
+    "id": 13,
+    "players": [
+      {
+        "id": 53731,
+        "first_name": "Bam",
+        "last_name": "Adebayo",
+        "position": "F-C",
+        "number": 13
+      },
+      {
+        "id": 3251,
+        "first_name": "Luke",
+        "last_name": "Babbitt",
+        "position": "SF",
+        "number": 22
+      },
+      {
+        "id": 396,
+        "first_name": "Goran",
+        "last_name": "Dragic",
+        "position": "G",
+        "number": 7
+      },
+      {
+        "id": 286,
+        "first_name": "Wayne",
+        "last_name": "Ellington",
+        "position": "G-F",
+        "number": 2
+      },
+      {
+        "id": 241,
+        "first_name": "Udonis",
+        "last_name": "Haslem",
+        "position": "PF",
+        "number": 40
+      },
+      {
+        "id": 65,
+        "first_name": "James",
+        "last_name": "Johnson",
+        "position": "F",
+        "number": 16
+      },
+      {
+        "id": 7508,
+        "first_name": "Tyler",
+        "last_name": "Johnson",
+        "position": "G",
+        "number": 8
+      },
+      {
+        "id": 45396,
+        "first_name": "Derrick",
+        "last_name": "Jones Jr.",
+        "position": "SF",
+        "number": 5
+      },
+      {
+        "id": 2458,
+        "first_name": "Rodney",
+        "last_name": "McGruder",
+        "position": "SG",
+        "number": 17
+      },
+      {
+        "id": 30772,
+        "first_name": "Jordan",
+        "last_name": "Mickey",
+        "position": "F-C",
+        "number": 25
+      },
+      {
+        "id": 2041,
+        "first_name": "Kelly",
+        "last_name": "Olynyk",
+        "position": "F-C",
+        "number": 9
+      },
+      {
+        "id": 11566,
+        "first_name": "Josh",
+        "last_name": "Richardson",
+        "position": "G",
+        "number": 0
+      },
+      {
+        "id": 239,
+        "first_name": "Dwyane",
+        "last_name": "Wade",
+        "position": "G",
+        "number": 3
+      },
+      {
+        "id": 6241,
+        "first_name": "Dion",
+        "last_name": "Waiters",
+        "position": "G-F",
+        "number": 11
+      },
+      {
+        "id": 30694,
+        "first_name": "Derrick",
+        "last_name": "Walton Jr.",
+        "position": "PG",
+        "number": 14
+      },
+      {
+        "id": 2834,
+        "first_name": "Hassan",
+        "last_name": "Whiteside",
+        "position": "C",
+        "number": 21
+      },
+      {
+        "id": 37622,
+        "first_name": "Justise",
+        "last_name": "Winslow",
+        "position": "F",
+        "number": 20
+      }
+    ]
+  },
+  {
+    "wins": 20,
+    "losses": 44,
+    "full_name": "Orlando Magic",
+    "id": 14,
+    "players": [
+      {
+        "id": 116,
+        "first_name": "Arron",
+        "last_name": "Afflalo",
+        "position": "G-F",
+        "number": 4
+      },
+      {
+        "id": 30804,
+        "first_name": "Jamel",
+        "last_name": "Artis",
+        "position": "SF",
+        "number": 0
+      },
+      {
+        "id": 45,
+        "first_name": "D.J.",
+        "last_name": "Augustin",
+        "position": "PG",
+        "number": 14
+      },
+      {
+        "id": 11121,
+        "first_name": "Khem",
+        "last_name": "Birch",
+        "position": "F-C",
+        "number": 24
+      },
+      {
+        "id": 11053,
+        "first_name": "Bismack",
+        "last_name": "Biyombo",
+        "position": "F-C",
+        "number": 11
+      },
+      {
+        "id": 24232,
+        "first_name": "Evan",
+        "last_name": "Fournier",
+        "position": "G-F",
+        "number": 10
+      },
+      {
+        "id": 30810,
+        "first_name": "Aaron",
+        "last_name": "Gordon",
+        "position": "F",
+        "number": 0
+      },
+      {
+        "id": 44889,
+        "first_name": "Mario",
+        "last_name": "Hezonja",
+        "position": "G-F",
+        "number": 8
+      },
+      {
+        "id": 52679,
+        "first_name": "Jonathan",
+        "last_name": "Isaac",
+        "position": "PF",
+        "number": 1
+      },
+      {
+        "id": 31763,
+        "first_name": "Wes",
+        "last_name": "Iwundu",
+        "position": "G-F",
+        "number": 25
+      },
+      {
+        "id": 994,
+        "first_name": "Shelvin",
+        "last_name": "Mack",
+        "position": "PG",
+        "number": 7
+      },
+      {
+        "id": 5977,
+        "first_name": "Terrence",
+        "last_name": "Ross",
+        "position": "G-F",
+        "number": 31
+      },
+      {
+        "id": 6449,
+        "first_name": "Jonathon",
+        "last_name": "Simmons",
+        "position": "G-F",
+        "number": 17
+      },
+      {
+        "id": 382,
+        "first_name": "Marreese",
+        "last_name": "Speights",
+        "position": "F-C",
+        "number": 5
+      },
+      {
+        "id": 37998,
+        "first_name": "Rashad",
+        "last_name": "Vaughn",
+        "position": "G-F",
+        "number": 20
+      },
+      {
+        "id": 5094,
+        "first_name": "Nikola",
+        "last_name": "Vucevic",
+        "position": "F-C",
+        "number": 9
+      }
+    ]
+  },
+  {
+    "wins": 36,
+    "losses": 28,
+    "full_name": "Washington Wizards",
+    "id": 15,
+    "players": [
+      {
+        "id": 11887,
+        "first_name": "Bradley",
+        "last_name": "Beal",
+        "position": "SG",
+        "number": 3
+      },
+      {
+        "id": 3820,
+        "first_name": "Tim",
+        "last_name": "Frazier",
+        "position": "G",
+        "number": 8
+      },
+      {
+        "id": 365,
+        "first_name": "Marcin",
+        "last_name": "Gortat",
+        "position": "C",
+        "number": 13
+      },
+      {
+        "id": 446,
+        "first_name": "Ian",
+        "last_name": "Mahinmi",
+        "position": "C",
+        "number": 28
+      },
+      {
+        "id": 38538,
+        "first_name": "Chris",
+        "last_name": "McCullough",
+        "position": "PF",
+        "number": 1
+      },
+      {
+        "id": 271,
+        "first_name": "Jodie",
+        "last_name": "Meeks",
+        "position": "SG",
+        "number": 20
+      },
+      {
+        "id": 2445,
+        "first_name": "Markieff",
+        "last_name": "Morris",
+        "position": "F-C",
+        "number": 5
+      },
+      {
+        "id": 37666,
+        "first_name": "Kelly",
+        "last_name": "Oubre Jr.",
+        "position": "SF",
+        "number": 12
+      },
+      {
+        "id": 11999,
+        "first_name": "Otto",
+        "last_name": "Porter Jr.",
+        "position": "F",
+        "number": 22
+      },
+      {
+        "id": 37812,
+        "first_name": "Devin",
+        "last_name": "Robinson",
+        "position": "G-F",
+        "number": 7
+      },
+      {
+        "id": 24233,
+        "first_name": "Tomas",
+        "last_name": "Satoransky",
+        "position": "G",
+        "number": 31
+      },
+      {
+        "id": 5228,
+        "first_name": "Mike",
+        "last_name": "Scott",
+        "position": "PF",
+        "number": 30
+      },
+      {
+        "id": 282,
+        "first_name": "Ramon",
+        "last_name": "Sessions",
+        "position": "G",
+        "number": 9
+      },
+      {
+        "id": 381,
+        "first_name": "Jason",
+        "last_name": "Smith",
+        "position": "F-C",
+        "number": 14
+      },
+      {
+        "id": 2509,
+        "first_name": "John",
+        "last_name": "Wall",
+        "position": "PG",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "wins": 49,
+    "losses": 14,
+    "full_name": "Golden State Warriors",
+    "id": 16,
+    "players": [
+      {
+        "id": 30724,
+        "first_name": "Jordan",
+        "last_name": "Bell",
+        "position": "F-C",
+        "number": 2
+      },
+      {
+        "id": 46591,
+        "first_name": "Chris",
+        "last_name": "Boucher",
+        "position": "F-C",
+        "number": 25
+      },
+      {
+        "id": 432,
+        "first_name": "Omri",
+        "last_name": "Casspi",
+        "position": "F",
+        "number": 18
+      },
+      {
+        "id": 11066,
+        "first_name": "Quinn",
+        "last_name": "Cook",
+        "position": "PG",
+        "number": 4
+      },
+      {
+        "id": 148,
+        "first_name": "Stephen",
+        "last_name": "Curry",
+        "position": "G",
+        "number": 30
+      },
+      {
+        "id": 345,
+        "first_name": "Kevin",
+        "last_name": "Durant",
+        "position": "F",
+        "number": 35
+      },
+      {
+        "id": 2982,
+        "first_name": "Draymond",
+        "last_name": "Green",
+        "position": "F-C",
+        "number": 23
+      },
+      {
+        "id": 376,
+        "first_name": "Andre",
+        "last_name": "Iguodala",
+        "position": "G-F",
+        "number": 9
+      },
+      {
+        "id": 30791,
+        "first_name": "Damian",
+        "last_name": "Jones",
+        "position": "C",
+        "number": 15
+      },
+      {
+        "id": 342,
+        "first_name": "Shaun",
+        "last_name": "Livingston",
+        "position": "G",
+        "number": 34
+      },
+      {
+        "id": 37915,
+        "first_name": "Kevon",
+        "last_name": "Looney",
+        "position": "F-C",
+        "number": 5
+      },
+      {
+        "id": 37995,
+        "first_name": "Patrick",
+        "last_name": "McCaw",
+        "position": "G-F",
+        "number": 0
+      },
+      {
+        "id": 502,
+        "first_name": "JaVale",
+        "last_name": "McGee",
+        "position": "C",
+        "number": 1
+      },
+      {
+        "id": 8,
+        "first_name": "Zaza",
+        "last_name": "Pachulia",
+        "position": "C",
+        "number": 27
+      },
+      {
+        "id": 5334,
+        "first_name": "Klay",
+        "last_name": "Thompson",
+        "position": "G-F",
+        "number": 11
+      },
+      {
+        "id": 312,
+        "first_name": "David",
+        "last_name": "West",
+        "position": "PF",
+        "number": 3
+      },
+      {
+        "id": 499,
+        "first_name": "Nick",
+        "last_name": "Young",
+        "position": "G-F",
+        "number": 6
+      }
+    ]
+  },
+  {
+    "wins": 34,
+    "losses": 28,
+    "full_name": "Los Angeles Clippers",
+    "id": 17,
+    "players": [
+      {
+        "id": 250,
+        "first_name": "Patrick",
+        "last_name": "Beverley",
+        "position": "G",
+        "number": 21
+      },
+      {
+        "id": 4763,
+        "first_name": "Avery",
+        "last_name": "Bradley",
+        "position": "G",
+        "number": 11
+      },
+      {
+        "id": 24388,
+        "first_name": "Sam",
+        "last_name": "Dekker",
+        "position": "F",
+        "number": 7
+      },
+      {
+        "id": 45059,
+        "first_name": "Jawun",
+        "last_name": "Evans",
+        "position": "PG",
+        "number": 1
+      },
+      {
+        "id": 331,
+        "first_name": "Danilo",
+        "last_name": "Gallinari",
+        "position": "F",
+        "number": 8
+      },
+      {
+        "id": 24839,
+        "first_name": "Montrezl",
+        "last_name": "Harrell",
+        "position": "F-C",
+        "number": 5
+      },
+      {
+        "id": 6332,
+        "first_name": "Tobias",
+        "last_name": "Harris",
+        "position": "F",
+        "number": 34
+      },
+      {
+        "id": 4668,
+        "first_name": "Wesley",
+        "last_name": "Johnson",
+        "position": "G-F",
+        "number": 33
+      },
+      {
+        "id": 200,
+        "first_name": "DeAndre",
+        "last_name": "Jordan",
+        "position": "C",
+        "number": 6
+      },
+      {
+        "id": 1270,
+        "first_name": "Sean",
+        "last_name": "Kilpatrick",
+        "position": "G",
+        "number": 2
+      },
+      {
+        "id": 44904,
+        "first_name": "Boban",
+        "last_name": "Marjanovic",
+        "position": "C",
+        "number": 51
+      },
+      {
+        "id": 11070,
+        "first_name": "Austin",
+        "last_name": "Rivers",
+        "position": "G",
+        "number": 25
+      },
+      {
+        "id": 52366,
+        "first_name": "Milos",
+        "last_name": "Teodosic",
+        "position": "G",
+        "number": 4
+      },
+      {
+        "id": 30786,
+        "first_name": "Sindarius",
+        "last_name": "Thornwell",
+        "position": "SG",
+        "number": 0
+      },
+      {
+        "id": 25215,
+        "first_name": "Tyrone",
+        "last_name": "Wallace",
+        "position": "G-F",
+        "number": 12
+      },
+      {
+        "id": 378,
+        "first_name": "Lou",
+        "last_name": "Williams",
+        "position": "G",
+        "number": 23
+      },
+      {
+        "id": 3468,
+        "first_name": "C.J.",
+        "last_name": "Williams",
+        "position": "SG",
+        "number": 9
+      }
+    ]
+  },
+  {
+    "wins": 28,
+    "losses": 35,
+    "full_name": "Los Angeles Lakers",
+    "id": 18,
+    "players": [
+      {
+        "id": 53246,
+        "first_name": "Lonzo",
+        "last_name": "Ball",
+        "position": "PG",
+        "number": 2
+      },
+      {
+        "id": 45742,
+        "first_name": "Thomas",
+        "last_name": "Bryant",
+        "position": "C",
+        "number": 31
+      },
+      {
+        "id": 11367,
+        "first_name": "Kentavious",
+        "last_name": "Caldwell-Pope",
+        "position": "G-F",
+        "number": 1
+      },
+      {
+        "id": 25024,
+        "first_name": "Alex",
+        "last_name": "Caruso",
+        "position": "SG",
+        "number": 4
+      },
+      {
+        "id": 58,
+        "first_name": "Luol",
+        "last_name": "Deng",
+        "position": "F",
+        "number": 9
+      },
+      {
+        "id": 31138,
+        "first_name": "Tyler",
+        "last_name": "Ennis",
+        "position": "PG",
+        "number": 10
+      },
+      {
+        "id": 391,
+        "first_name": "Channing",
+        "last_name": "Frye",
+        "position": "F-C",
+        "number": 12
+      },
+      {
+        "id": 30695,
+        "first_name": "Josh",
+        "last_name": "Hart",
+        "position": "G-F",
+        "number": 5
+      },
+      {
+        "id": 44931,
+        "first_name": "Brandon",
+        "last_name": "Ingram",
+        "position": "G-F",
+        "number": 14
+      },
+      {
+        "id": 37799,
+        "first_name": "Kyle",
+        "last_name": "Kuzma",
+        "position": "F",
+        "number": 0
+      },
+      {
+        "id": 300,
+        "first_name": "Brook",
+        "last_name": "Lopez",
+        "position": "C",
+        "number": 11
+      },
+      {
+        "id": 37868,
+        "first_name": "Gary",
+        "last_name": "Payton II",
+        "position": "SG",
+        "number": 23
+      },
+      {
+        "id": 31118,
+        "first_name": "Julius",
+        "last_name": "Randle",
+        "position": "F-C",
+        "number": 30
+      },
+      {
+        "id": 5316,
+        "first_name": "Isaiah",
+        "last_name": "Thomas",
+        "position": "PG",
+        "number": 7
+      },
+      {
+        "id": 3395,
+        "first_name": "Travis",
+        "last_name": "Wear",
+        "position": "PF",
+        "number": 21
+      },
+      {
+        "id": 52287,
+        "first_name": "Ivica",
+        "last_name": "Zubac",
+        "position": "C",
+        "number": 40
+      }
+    ]
+  },
+  {
+    "wins": 19,
+    "losses": 47,
+    "full_name": "Phoenix Suns",
+    "id": 19,
+    "players": [
+      {
+        "id": 52279,
+        "first_name": "Dragan",
+        "last_name": "Bender",
+        "position": "F-C",
+        "number": 35
+      },
+      {
+        "id": 37815,
+        "first_name": "Devin",
+        "last_name": "Booker",
+        "position": "G",
+        "number": 1
+      },
+      {
+        "id": 38,
+        "first_name": "Tyson",
+        "last_name": "Chandler",
+        "position": "C",
+        "number": 4
+      },
+      {
+        "id": 46136,
+        "first_name": "Marquese",
+        "last_name": "Chriss",
+        "position": "F-C",
+        "number": 0
+      },
+      {
+        "id": 5236,
+        "first_name": "Troy",
+        "last_name": "Daniels",
+        "position": "G",
+        "number": 30
+      },
+      {
+        "id": 393,
+        "first_name": "Jared",
+        "last_name": "Dudley",
+        "position": "F",
+        "number": 3
+      },
+      {
+        "id": 24436,
+        "first_name": "Shaquille",
+        "last_name": "Harrison",
+        "position": "PG",
+        "number": 10
+      },
+      {
+        "id": 24394,
+        "first_name": "Danuel",
+        "last_name": "House",
+        "position": "SG",
+        "number": 23
+      },
+      {
+        "id": 52744,
+        "first_name": "Josh",
+        "last_name": "Jackson",
+        "position": "G-F",
+        "number": 20
+      },
+      {
+        "id": 6457,
+        "first_name": "Brandon",
+        "last_name": "Knight",
+        "position": "G",
+        "number": 11
+      },
+      {
+        "id": 12506,
+        "first_name": "Alex",
+        "last_name": "Len",
+        "position": "F-C",
+        "number": 21
+      },
+      {
+        "id": 11942,
+        "first_name": "Elfrid",
+        "last_name": "Payton",
+        "position": "PG",
+        "number": 2
+      },
+      {
+        "id": 31337,
+        "first_name": "Alec",
+        "last_name": "Peters",
+        "position": "PF",
+        "number": 25
+      },
+      {
+        "id": 30638,
+        "first_name": "Davon",
+        "last_name": "Reed",
+        "position": "SG",
+        "number": 32
+      },
+      {
+        "id": 37818,
+        "first_name": "Tyler",
+        "last_name": "Ulis",
+        "position": "PG",
+        "number": 8
+      },
+      {
+        "id": 24256,
+        "first_name": "T.J.",
+        "last_name": "Warren",
+        "position": "SF",
+        "number": 12
+      },
+      {
+        "id": 11908,
+        "first_name": "Alan",
+        "last_name": "Williams",
+        "position": "F-C",
+        "number": 15
+      }
+    ]
+  },
+  {
+    "wins": 20,
+    "losses": 44,
+    "full_name": "Sacramento Kings",
+    "id": 20,
+    "players": [
+      {
+        "id": 37602,
+        "first_name": "Bogdan",
+        "last_name": "Bogdanovic",
+        "position": "G-F",
+        "number": 8
+      },
+      {
+        "id": 37600,
+        "first_name": "Bruno",
+        "last_name": "Caboclo",
+        "position": "SF",
+        "number": 22
+      },
+      {
+        "id": 356,
+        "first_name": "Vince",
+        "last_name": "Carter",
+        "position": "G-F",
+        "number": 15
+      },
+      {
+        "id": 24884,
+        "first_name": "Willie",
+        "last_name": "Cauley-Stein",
+        "position": "F-C",
+        "number": 0
+      },
+      {
+        "id": 3657,
+        "first_name": "Jack",
+        "last_name": "Cooley",
+        "position": "F-C",
+        "number": 45
+      },
+      {
+        "id": 53733,
+        "first_name": "De'Aaron",
+        "last_name": "Fox",
+        "position": "PG",
+        "number": 5
+      },
+      {
+        "id": 52649,
+        "first_name": "Harry",
+        "last_name": "Giles",
+        "position": "F-C",
+        "number": 20
+      },
+      {
+        "id": 24735,
+        "first_name": "Buddy",
+        "last_name": "Hield",
+        "position": "SG",
+        "number": 24
+      },
+      {
+        "id": 37649,
+        "first_name": "Justin",
+        "last_name": "Jackson",
+        "position": "SF",
+        "number": 25
+      },
+      {
+        "id": 485,
+        "first_name": "Kosta",
+        "last_name": "Koufos",
+        "position": "F-C",
+        "number": 41
+      },
+      {
+        "id": 44992,
+        "first_name": "Skal",
+        "last_name": "Labissiere",
+        "position": "F-C",
+        "number": 7
+      },
+      {
+        "id": 31935,
+        "first_name": "Frank",
+        "last_name": "Mason III",
+        "position": "PG",
+        "number": 10
+      },
+      {
+        "id": 224,
+        "first_name": "Zach",
+        "last_name": "Randolph",
+        "position": "F-C",
+        "number": 50
+      },
+      {
+        "id": 12121,
+        "first_name": "Jakarr",
+        "last_name": "Sampson",
+        "position": "G-F",
+        "number": 29
+      },
+      {
+        "id": 2028,
+        "first_name": "Iman",
+        "last_name": "Shumpert",
+        "position": "G-F",
+        "number": 9
+      },
+      {
+        "id": 5705,
+        "first_name": "Garrett",
+        "last_name": "Temple",
+        "position": "G-F",
+        "number": 17
+      }
+    ]
+  },
+  {
+    "wins": 19,
+    "losses": 45,
+    "full_name": "Dallas Mavericks",
+    "id": 21,
+    "players": [
+      {
+        "id": 100,
+        "first_name": "J.J.",
+        "last_name": "Barea",
+        "position": "G",
+        "number": 5
+      },
+      {
+        "id": 6285,
+        "first_name": "Harrison",
+        "last_name": "Barnes",
+        "position": "F",
+        "number": 40
+      },
+      {
+        "id": 6607,
+        "first_name": "Kyle",
+        "last_name": "Collinsworth",
+        "position": "SG",
+        "number": 8
+      },
+      {
+        "id": 1623,
+        "first_name": "Seth",
+        "last_name": "Curry",
+        "position": "G",
+        "number": 30
+      },
+      {
+        "id": 24835,
+        "first_name": "Yogi",
+        "last_name": "Ferrell",
+        "position": "G",
+        "number": 11
+      },
+      {
+        "id": 11858,
+        "first_name": "Dorian",
+        "last_name": "Finney-Smith",
+        "position": "F",
+        "number": 10
+      },
+      {
+        "id": 4712,
+        "first_name": "Scotty",
+        "last_name": "Hopson",
+        "position": "SG",
+        "number": 32
+      },
+      {
+        "id": 11819,
+        "first_name": "Jalen",
+        "last_name": "Jones",
+        "position": "G-F",
+        "number": 21
+      },
+      {
+        "id": 60967,
+        "first_name": "Maxi",
+        "last_name": "Kleber",
+        "position": "PF",
+        "number": 42
+      },
+      {
+        "id": 507,
+        "first_name": "Wesley",
+        "last_name": "Matthews",
+        "position": "G-F",
+        "number": 23
+      },
+      {
+        "id": 6513,
+        "first_name": "Doug",
+        "last_name": "McDermott",
+        "position": "SF",
+        "number": 20
+      },
+      {
+        "id": 44906,
+        "first_name": "Salah",
+        "last_name": "Mejri",
+        "position": "C",
+        "number": 50
+      },
+      {
+        "id": 30813,
+        "first_name": "Johnathan",
+        "last_name": "Motley",
+        "position": "SF",
+        "number": 55
+      },
+      {
+        "id": 24886,
+        "first_name": "Nerlens",
+        "last_name": "Noel",
+        "position": "F-C",
+        "number": 3
+      },
+      {
+        "id": 88,
+        "first_name": "Dirk",
+        "last_name": "Nowitzki",
+        "position": "F-C",
+        "number": 41
+      },
+      {
+        "id": 6312,
+        "first_name": "Dwight",
+        "last_name": "Powell",
+        "position": "F-C",
+        "number": 7
+      },
+      {
+        "id": 52850,
+        "first_name": "Dennis",
+        "last_name": "Smith Jr.",
+        "position": "G",
+        "number": 1
+      }
+    ]
+  },
+  {
+    "wins": 49,
+    "losses": 13,
+    "full_name": "Houston Rockets",
+    "id": 22,
+    "players": [
+      {
+        "id": 368,
+        "first_name": "Ryan",
+        "last_name": "Anderson",
+        "position": "F-C",
+        "number": 33
+      },
+      {
+        "id": 157,
+        "first_name": "Trevor",
+        "last_name": "Ariza",
+        "position": "G-F",
+        "number": 1
+      },
+      {
+        "id": 6173,
+        "first_name": "Tarik",
+        "last_name": "Black",
+        "position": "F-C",
+        "number": 28
+      },
+      {
+        "id": 6426,
+        "first_name": "Markel",
+        "last_name": "Brown",
+        "position": "SG",
+        "number": 26
+      },
+      {
+        "id": 37601,
+        "first_name": "Clint",
+        "last_name": "Capela",
+        "position": "F-C",
+        "number": 15
+      },
+      {
+        "id": 199,
+        "first_name": "Eric",
+        "last_name": "Gordon",
+        "position": "SG",
+        "number": 10
+      },
+      {
+        "id": 97,
+        "first_name": "Gerald",
+        "last_name": "Green",
+        "position": "G-F",
+        "number": 14
+      },
+      {
+        "id": 351,
+        "first_name": "James",
+        "last_name": "Harden",
+        "position": "G",
+        "number": 13
+      },
+      {
+        "id": 110,
+        "first_name": "Nene",
+        "last_name": "Hilario",
+        "position": "F-C",
+        "number": 42
+      },
+      {
+        "id": 24357,
+        "first_name": "R.J.",
+        "last_name": "Hunter",
+        "position": "SG",
+        "number": 2
+      },
+      {
+        "id": 4,
+        "first_name": "Joe",
+        "last_name": "Johnson",
+        "position": "F",
+        "number": 7
+      },
+      {
+        "id": 269,
+        "first_name": "Luc Richard",
+        "last_name": "Mbah a Moute",
+        "position": "F",
+        "number": 12
+      },
+      {
+        "id": 37854,
+        "first_name": "Chinanu",
+        "last_name": "Onuaku",
+        "position": "F-C",
+        "number": 21
+      },
+      {
+        "id": 314,
+        "first_name": "Chris",
+        "last_name": "Paul",
+        "position": "PG",
+        "number": 3
+      },
+      {
+        "id": 52290,
+        "first_name": "Zhou",
+        "last_name": "Qi",
+        "position": "PF",
+        "number": 9
+      },
+      {
+        "id": 24498,
+        "first_name": "P.J.",
+        "last_name": "Tucker",
+        "position": "SF",
+        "number": 4
+      },
+      {
+        "id": 141,
+        "first_name": "Brandan",
+        "last_name": "Wright",
+        "position": "F-C",
+        "number": 32
+      }
+    ]
+  },
+  {
+    "wins": 18,
+    "losses": 45,
+    "full_name": "Memphis Grizzlies",
+    "id": 23,
+    "players": [
+      {
+        "id": 39256,
+        "first_name": "Dillon",
+        "last_name": "Brooks",
+        "position": "G-F",
+        "number": 24
+      },
+      {
+        "id": 249,
+        "first_name": "Mario",
+        "last_name": "Chalmers",
+        "position": "G",
+        "number": 6
+      },
+      {
+        "id": 227,
+        "first_name": "Mike",
+        "last_name": "Conley",
+        "position": "PG",
+        "number": 11
+      },
+      {
+        "id": 45016,
+        "first_name": "Deyonta",
+        "last_name": "Davis",
+        "position": "PF",
+        "number": 21
+      },
+      {
+        "id": 431,
+        "first_name": "Tyreke",
+        "last_name": "Evans",
+        "position": "G",
+        "number": 12
+      },
+      {
+        "id": 228,
+        "first_name": "Marc",
+        "last_name": "Gasol",
+        "position": "C",
+        "number": 33
+      },
+      {
+        "id": 551,
+        "first_name": "JaMychal",
+        "last_name": "Green",
+        "position": "F-C",
+        "number": 0
+      },
+      {
+        "id": 31114,
+        "first_name": "Andrew",
+        "last_name": "Harrison",
+        "position": "G",
+        "number": 5
+      },
+      {
+        "id": 11680,
+        "first_name": "Myke",
+        "last_name": "Henry",
+        "position": "SF",
+        "number": 4
+      },
+      {
+        "id": 24724,
+        "first_name": "Brice",
+        "last_name": "Johnson",
+        "position": "PF",
+        "number": 14
+      },
+      {
+        "id": 30754,
+        "first_name": "Jarell",
+        "last_name": "Martin",
+        "position": "F-C",
+        "number": 1
+      },
+      {
+        "id": 11686,
+        "first_name": "Ben",
+        "last_name": "McLemore",
+        "position": "SG",
+        "number": 23
+      },
+      {
+        "id": 1813,
+        "first_name": "Chandler",
+        "last_name": "Parsons",
+        "position": "F",
+        "number": 25
+      },
+      {
+        "id": 45457,
+        "first_name": "Ivan",
+        "last_name": "Rabb",
+        "position": "PF",
+        "number": 10
+      },
+      {
+        "id": 30629,
+        "first_name": "Xavier",
+        "last_name": "Rathan-Mayes",
+        "position": "PG",
+        "number": 22
+      },
+      {
+        "id": 31936,
+        "first_name": "Wayne",
+        "last_name": "Selden Jr.",
+        "position": "SG",
+        "number": 7
+      },
+      {
+        "id": 53406,
+        "first_name": "Kobi",
+        "last_name": "Simmons",
+        "position": "SG",
+        "number": 2
+      }
+    ]
+  },
+  {
+    "wins": 36,
+    "losses": 26,
+    "full_name": "New Orleans Pelicans",
+    "id": 24,
+    "players": [
+      {
+        "id": 46,
+        "first_name": "Alexis",
+        "last_name": "Ajinca",
+        "position": "F-C",
+        "number": 42
+      },
+      {
+        "id": 819,
+        "first_name": "Ian",
+        "last_name": "Clark",
+        "position": "G",
+        "number": 2
+      },
+      {
+        "id": 24400,
+        "first_name": "Charles",
+        "last_name": "Cooke",
+        "position": "SG",
+        "number": 4
+      },
+      {
+        "id": 2498,
+        "first_name": "DeMarcus",
+        "last_name": "Cousins",
+        "position": "F-C",
+        "number": 0
+      },
+      {
+        "id": 11373,
+        "first_name": "Anthony",
+        "last_name": "Davis",
+        "position": "F-C",
+        "number": 23
+      },
+      {
+        "id": 44977,
+        "first_name": "Cheick",
+        "last_name": "Diallo",
+        "position": "F-C",
+        "number": 13
+      },
+      {
+        "id": 656,
+        "first_name": "Solomon",
+        "last_name": "Hill",
+        "position": "G-F",
+        "number": 44
+      },
+      {
+        "id": 383,
+        "first_name": "Jrue",
+        "last_name": "Holiday",
+        "position": "G",
+        "number": 11
+      },
+      {
+        "id": 52650,
+        "first_name": "Frank",
+        "last_name": "Jackson",
+        "position": "PG",
+        "number": 15
+      },
+      {
+        "id": 6002,
+        "first_name": "Walt",
+        "last_name": "Lemon Jr.",
+        "position": "SF",
+        "number": 25
+      },
+      {
+        "id": 2504,
+        "first_name": "DeAndre",
+        "last_name": "Liggins",
+        "position": "G-F",
+        "number": 34
+      },
+      {
+        "id": 2505,
+        "first_name": "Darius",
+        "last_name": "Miller",
+        "position": "G-F",
+        "number": 21
+      },
+      {
+        "id": 11055,
+        "first_name": "Nikola",
+        "last_name": "Mirotic",
+        "position": "F",
+        "number": 3
+      },
+      {
+        "id": 3980,
+        "first_name": "E'Twaun",
+        "last_name": "Moore",
+        "position": "G-F",
+        "number": 55
+      },
+      {
+        "id": 313,
+        "first_name": "Emeka",
+        "last_name": "Okafor",
+        "position": "C",
+        "number": 50
+      },
+      {
+        "id": 29,
+        "first_name": "Rajon",
+        "last_name": "Rondo",
+        "position": "PG",
+        "number": 9
+      }
+    ]
+  },
+  {
+    "wins": 37,
+    "losses": 27,
+    "full_name": "San Antonio Spurs",
+    "id": 25,
+    "players": [
+      {
+        "id": 407,
+        "first_name": "LaMarcus",
+        "last_name": "Aldridge",
+        "position": "F-C",
+        "number": 12
+      },
+      {
+        "id": 24784,
+        "first_name": "Kyle",
+        "last_name": "Anderson",
+        "position": "G-F",
+        "number": 1
+      },
+      {
+        "id": 11058,
+        "first_name": "Davis",
+        "last_name": "Bertans",
+        "position": "F-C",
+        "number": 42
+      },
+      {
+        "id": 25547,
+        "first_name": "Matt",
+        "last_name": "Costello",
+        "position": "PF",
+        "number": 10
+      },
+      {
+        "id": 24850,
+        "first_name": "Bryn",
+        "last_name": "Forbes",
+        "position": "PG",
+        "number": 11
+      },
+      {
+        "id": 207,
+        "first_name": "Pau",
+        "last_name": "Gasol",
+        "position": "F-C",
+        "number": 16
+      },
+      {
+        "id": 226,
+        "first_name": "Rudy",
+        "last_name": "Gay",
+        "position": "F",
+        "number": 22
+      },
+      {
+        "id": 439,
+        "first_name": "Manu",
+        "last_name": "Ginobili",
+        "position": "G-F",
+        "number": 20
+      },
+      {
+        "id": 83,
+        "first_name": "Danny",
+        "last_name": "Green",
+        "position": "G-F",
+        "number": 14
+      },
+      {
+        "id": 11149,
+        "first_name": "Darrun",
+        "last_name": "Hilliard",
+        "position": "SG",
+        "number": 24
+      },
+      {
+        "id": 30621,
+        "first_name": "Joffrey",
+        "last_name": "Lauvergne",
+        "position": "F-C",
+        "number": 77
+      },
+      {
+        "id": 4200,
+        "first_name": "Kawhi",
+        "last_name": "Leonard",
+        "position": "G-F",
+        "number": 2
+      },
+      {
+        "id": 416,
+        "first_name": "Patty",
+        "last_name": "Mills",
+        "position": "PG",
+        "number": 8
+      },
+      {
+        "id": 46143,
+        "first_name": "Dejounte",
+        "last_name": "Murray",
+        "position": "PG",
+        "number": 5
+      },
+      {
+        "id": 442,
+        "first_name": "Tony",
+        "last_name": "Parker",
+        "position": "PG",
+        "number": 9
+      },
+      {
+        "id": 2259,
+        "first_name": "Brandon",
+        "last_name": "Paul",
+        "position": "SG",
+        "number": 3
+      },
+      {
+        "id": 32925,
+        "first_name": "Derrick",
+        "last_name": "White",
+        "position": "PG",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "wins": 35,
+    "losses": 28,
+    "full_name": "Denver Nuggets",
+    "id": 26,
+    "players": [
+      {
+        "id": 230,
+        "first_name": "Darrell",
+        "last_name": "Arthur",
+        "position": "F-C",
+        "number": 0
+      },
+      {
+        "id": 6172,
+        "first_name": "Will",
+        "last_name": "Barton",
+        "position": "G-F",
+        "number": 5
+      },
+      {
+        "id": 44947,
+        "first_name": "Malik",
+        "last_name": "Beasley",
+        "position": "G",
+        "number": 25
+      },
+      {
+        "id": 330,
+        "first_name": "Wilson",
+        "last_name": "Chandler",
+        "position": "G-F",
+        "number": 21
+      },
+      {
+        "id": 6803,
+        "first_name": "Torrey",
+        "last_name": "Craig",
+        "position": "G-F",
+        "number": 3
+      },
+      {
+        "id": 3163,
+        "first_name": "Kenneth",
+        "last_name": "Faried",
+        "position": "F-C",
+        "number": 35
+      },
+      {
+        "id": 295,
+        "first_name": "Devin",
+        "last_name": "Harris",
+        "position": "G",
+        "number": 34
+      },
+      {
+        "id": 25548,
+        "first_name": "Gary",
+        "last_name": "Harris",
+        "position": "G-F",
+        "number": 14
+      },
+      {
+        "id": 52282,
+        "first_name": "Juancho",
+        "last_name": "Hernangómez",
+        "position": "F",
+        "number": 41
+      },
+      {
+        "id": 441,
+        "first_name": "Richard",
+        "last_name": "Jefferson",
+        "position": "G-F",
+        "number": 22
+      },
+      {
+        "id": 37604,
+        "first_name": "Nikola",
+        "last_name": "Jokic",
+        "position": "F-C",
+        "number": 15
+      },
+      {
+        "id": 45091,
+        "first_name": "Tyler",
+        "last_name": "Lydon",
+        "position": "PF",
+        "number": 20
+      },
+      {
+        "id": 37816,
+        "first_name": "Trey",
+        "last_name": "Lyles",
+        "position": "PF",
+        "number": 7
+      },
+      {
+        "id": 482,
+        "first_name": "Paul",
+        "last_name": "Millsap",
+        "position": "F-C",
+        "number": 4
+      },
+      {
+        "id": 30665,
+        "first_name": "Monte",
+        "last_name": "Morris",
+        "position": "PG",
+        "number": 11
+      },
+      {
+        "id": 44995,
+        "first_name": "Jamal",
+        "last_name": "Murray",
+        "position": "G",
+        "number": 27
+      },
+      {
+        "id": 1630,
+        "first_name": "Mason",
+        "last_name": "Plumlee",
+        "position": "F-C",
+        "number": 24
+      }
+    ]
+  },
+  {
+    "wins": 38,
+    "losses": 28,
+    "full_name": "Minnesota Timberwolves",
+    "id": 27,
+    "players": [
+      {
+        "id": 2435,
+        "first_name": "Cole",
+        "last_name": "Aldrich",
+        "position": "C",
+        "number": 45
+      },
+      {
+        "id": 5985,
+        "first_name": "Nemanja",
+        "last_name": "Bjelica",
+        "position": "PF",
+        "number": 8
+      },
+      {
+        "id": 162,
+        "first_name": "Aaron",
+        "last_name": "Brooks",
+        "position": "PG",
+        "number": 30
+      },
+      {
+        "id": 6308,
+        "first_name": "Anthony",
+        "last_name": "Brown",
+        "position": "SF",
+        "number": 3
+      },
+      {
+        "id": 2809,
+        "first_name": "Jimmy",
+        "last_name": "Butler",
+        "position": "G-F",
+        "number": 23
+      },
+      {
+        "id": 3,
+        "first_name": "Jamal",
+        "last_name": "Crawford",
+        "position": "G-F",
+        "number": 11
+      },
+      {
+        "id": 6406,
+        "first_name": "Gorgui",
+        "last_name": "Dieng",
+        "position": "F-C",
+        "number": 5
+      },
+      {
+        "id": 24686,
+        "first_name": "Marcus",
+        "last_name": "Georges-Hunt",
+        "position": "SG",
+        "number": 13
+      },
+      {
+        "id": 66,
+        "first_name": "Taj",
+        "last_name": "Gibson",
+        "position": "F-C",
+        "number": 67
+      },
+      {
+        "id": 24655,
+        "first_name": "Amile",
+        "last_name": "Jefferson",
+        "position": "PF",
+        "number": 10
+      },
+      {
+        "id": 37619,
+        "first_name": "Tyus",
+        "last_name": "Jones",
+        "position": "PG",
+        "number": 1
+      },
+      {
+        "id": 45142,
+        "first_name": "Justin",
+        "last_name": "Patton",
+        "position": "C",
+        "number": 24
+      },
+      {
+        "id": 16,
+        "first_name": "Jeff",
+        "last_name": "Teague",
+        "position": "PG",
+        "number": 0
+      },
+      {
+        "id": 37817,
+        "first_name": "Karl-Anthony",
+        "last_name": "Towns",
+        "position": "C",
+        "number": 32
+      },
+      {
+        "id": 31937,
+        "first_name": "Andrew",
+        "last_name": "Wiggins",
+        "position": "G-F",
+        "number": 22
+      }
+    ]
+  },
+  {
+    "wins": 37,
+    "losses": 28,
+    "full_name": "Oklahoma City Thunder",
+    "id": 28,
+    "players": [
+      {
+        "id": 30618,
+        "first_name": "Álex",
+        "last_name": "Abrines",
+        "position": "SG",
+        "number": 8
+      },
+      {
+        "id": 24302,
+        "first_name": "Steven",
+        "last_name": "Adams",
+        "position": "C",
+        "number": 12
+      },
+      {
+        "id": 111,
+        "first_name": "Carmelo",
+        "last_name": "Anthony",
+        "position": "F",
+        "number": 7
+      },
+      {
+        "id": 281,
+        "first_name": "Corey",
+        "last_name": "Brewer",
+        "position": "G-F",
+        "number": 3
+      },
+      {
+        "id": 341,
+        "first_name": "Nick",
+        "last_name": "Collison",
+        "position": "F-C",
+        "number": 4
+      },
+      {
+        "id": 45080,
+        "first_name": "PJ",
+        "last_name": "Dozier",
+        "position": "PG",
+        "number": 35
+      },
+      {
+        "id": 43,
+        "first_name": "Raymond",
+        "last_name": "Felton",
+        "position": "G",
+        "number": 2
+      },
+      {
+        "id": 60049,
+        "first_name": "Terrance",
+        "last_name": "Ferguson",
+        "position": "G-F",
+        "number": 23
+      },
+      {
+        "id": 1889,
+        "first_name": "Paul",
+        "last_name": "George",
+        "position": "G-F",
+        "number": 13
+      },
+      {
+        "id": 24892,
+        "first_name": "Jerami",
+        "last_name": "Grant",
+        "position": "F",
+        "number": 9
+      },
+      {
+        "id": 38116,
+        "first_name": "Daniel",
+        "last_name": "Hamilton",
+        "position": "SF",
+        "number": 25
+      },
+      {
+        "id": 6310,
+        "first_name": "Josh",
+        "last_name": "Huestis",
+        "position": "SF",
+        "number": 34
+      },
+      {
+        "id": 31116,
+        "first_name": "Dakari",
+        "last_name": "Johnson",
+        "position": "C",
+        "number": 44
+      },
+      {
+        "id": 2507,
+        "first_name": "Patrick",
+        "last_name": "Patterson",
+        "position": "F-C",
+        "number": 54
+      },
+      {
+        "id": 5919,
+        "first_name": "Andre",
+        "last_name": "Roberson",
+        "position": "G-F",
+        "number": 21
+      },
+      {
+        "id": 1633,
+        "first_name": "Kyle",
+        "last_name": "Singler",
+        "position": "G-F",
+        "number": 15
+      },
+      {
+        "id": 347,
+        "first_name": "Russell",
+        "last_name": "Westbrook",
+        "position": "PG",
+        "number": 0
+      }
+    ]
+  },
+  {
+    "wins": 38,
+    "losses": 26,
+    "full_name": "Portland Trail Blazers",
+    "id": 29,
+    "players": [
+      {
+        "id": 5290,
+        "first_name": "Al-Farouq",
+        "last_name": "Aminu",
+        "position": "F",
+        "number": 8
+      },
+      {
+        "id": 37845,
+        "first_name": "Wade",
+        "last_name": "Baldwin IV",
+        "position": "PG",
+        "number": 2
+      },
+      {
+        "id": 53162,
+        "first_name": "Zach",
+        "last_name": "Collins",
+        "position": "F-C",
+        "number": 33
+      },
+      {
+        "id": 11120,
+        "first_name": "Pat",
+        "last_name": "Connaughton",
+        "position": "G-F",
+        "number": 5
+      },
+      {
+        "id": 3382,
+        "first_name": "Ed",
+        "last_name": "Davis",
+        "position": "F-C",
+        "number": 17
+      },
+      {
+        "id": 12116,
+        "first_name": "Maurice",
+        "last_name": "Harkless",
+        "position": "SF",
+        "number": 4
+      },
+      {
+        "id": 24843,
+        "first_name": "Jake",
+        "last_name": "Layman",
+        "position": "PF",
+        "number": 10
+      },
+      {
+        "id": 5954,
+        "first_name": "Meyers",
+        "last_name": "Leonard",
+        "position": "F-C",
+        "number": 11
+      },
+      {
+        "id": 5343,
+        "first_name": "Damian",
+        "last_name": "Lillard",
+        "position": "PG",
+        "number": 0
+      },
+      {
+        "id": 2562,
+        "first_name": "CJ",
+        "last_name": "McCollum",
+        "position": "G",
+        "number": 3
+      },
+      {
+        "id": 6381,
+        "first_name": "Shabazz",
+        "last_name": "Napier",
+        "position": "PG",
+        "number": 6
+      },
+      {
+        "id": 37599,
+        "first_name": "Jusuf",
+        "last_name": "Nurkic",
+        "position": "C",
+        "number": 27
+      },
+      {
+        "id": 45073,
+        "first_name": "Caleb",
+        "last_name": "Swanigan",
+        "position": "F-C",
+        "number": 50
+      },
+      {
+        "id": 3708,
+        "first_name": "Evan",
+        "last_name": "Turner",
+        "position": "G-F",
+        "number": 1
+      },
+      {
+        "id": 5319,
+        "first_name": "CJ",
+        "last_name": "Wilcox",
+        "position": "SG",
+        "number": 23
+      }
+    ]
+  },
+  {
+    "wins": 34,
+    "losses": 30,
+    "full_name": "Utah Jazz",
+    "id": 30,
+    "players": [
+      {
+        "id": 52842,
+        "first_name": "Tony",
+        "last_name": "Bradley",
+        "position": "C",
+        "number": 13
+      },
+      {
+        "id": 1363,
+        "first_name": "Alec",
+        "last_name": "Burks",
+        "position": "G",
+        "number": 10
+      },
+      {
+        "id": 6279,
+        "first_name": "Jae",
+        "last_name": "Crowder",
+        "position": "F",
+        "number": 99
+      },
+      {
+        "id": 37597,
+        "first_name": "Dante",
+        "last_name": "Exum",
+        "position": "G",
+        "number": 11
+      },
+      {
+        "id": 2017,
+        "first_name": "Derrick",
+        "last_name": "Favors",
+        "position": "F-C",
+        "number": 15
+      },
+      {
+        "id": 30615,
+        "first_name": "Rudy",
+        "last_name": "Gobert",
+        "position": "C",
+        "number": 27
+      },
+      {
+        "id": 38400,
+        "first_name": "Joe",
+        "last_name": "Ingles",
+        "position": "G-F",
+        "number": 2
+      },
+      {
+        "id": 131,
+        "first_name": "Jonas",
+        "last_name": "Jerebko",
+        "position": "F",
+        "number": 8
+      },
+      {
+        "id": 24719,
+        "first_name": "Erik",
+        "last_name": "McCree",
+        "position": "SF",
+        "number": 21
+      },
+      {
+        "id": 44998,
+        "first_name": "Donovan",
+        "last_name": "Mitchell",
+        "position": "G",
+        "number": 45
+      },
+      {
+        "id": 24290,
+        "first_name": "Nazareth",
+        "last_name": "Mitrou-Long",
+        "position": "PG",
+        "number": 30
+      },
+      {
+        "id": 30620,
+        "first_name": "Raul",
+        "last_name": "Neto",
+        "position": "PG",
+        "number": 25
+      },
+      {
+        "id": 24291,
+        "first_name": "Georges",
+        "last_name": "Niang",
+        "position": "PF",
+        "number": 31
+      },
+      {
+        "id": 11583,
+        "first_name": "Royce",
+        "last_name": "O'Neale",
+        "position": "SF",
+        "number": 23
+      },
+      {
+        "id": 284,
+        "first_name": "Ricky",
+        "last_name": "Rubio",
+        "position": "PG",
+        "number": 3
+      },
+      {
+        "id": 344,
+        "first_name": "Thabo",
+        "last_name": "Sefolosha",
+        "position": "G-F",
+        "number": 22
+      },
+      {
+        "id": 813,
+        "first_name": "Ekpe",
+        "last_name": "Udoh",
+        "position": "F-C",
+        "number": 33
+      }
+    ]
+  }
+]

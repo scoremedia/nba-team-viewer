@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.thescore.view.MainActivity">
+    <item
+        android:id="@+id/actionSortByName"
+        android:orderInCategory="100"
+        android:title="@string/actionSortByName"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionSortByWins"
+        android:orderInCategory="100"
+        android:title="@string/actionSortByWins"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionSortByLosses"
+        android:orderInCategory="100"
+        android:title="@string/actionSortByLosses"
+        app:showAsAction="never" />
+</menu>
