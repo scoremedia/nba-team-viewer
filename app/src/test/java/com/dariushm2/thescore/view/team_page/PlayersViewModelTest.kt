@@ -1,12 +1,10 @@
-package com.dariushm2.thescore
+package com.dariushm2.thescore.view.team_page
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
-import com.dariushm2.thescore.db.model.PlayerEntity
-import com.dariushm2.thescore.db.model.TeamEntity
+import com.dariushm2.thescore.NbaDaoFake
 import com.dariushm2.thescore.repository.PlayersRepo
 import com.dariushm2.thescore.util.DataState
-import com.dariushm2.thescore.view.team_page.PlayersViewModel
 import com.google.common.truth.Truth
 import io.mockk.every
 import io.mockk.mockk
@@ -18,9 +16,6 @@ import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.mockito.ArgumentMatchers
-import org.mockito.Mock
-import org.mockito.Mockito.verify
 import org.mockito.MockitoAnnotations
 
 
