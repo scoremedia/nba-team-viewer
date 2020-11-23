@@ -23,7 +23,7 @@ import com.dariushm2.thescore.util.DataState
 
 class TeamsListFragment : Fragment() {
 
-    private val vm: TeamsViewModel by lazy {
+    val vm: TeamsViewModel by lazy {
         ViewModelProvider(this, BaseViewModelFactory {
             TeamsViewModel(
                 null,
@@ -76,14 +76,14 @@ class TeamsListFragment : Fragment() {
 
     private fun setTitle() {
         activity?.title = getString(R.string.app_name)
-        (activity as AppCompatActivity?)!!.supportActionBar?.subtitle = null
+        if (activity is AppCompatActivity)
+            (activity as AppCompatActivity?)!!.supportActionBar?.subtitle = null
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
         vm.teamsLiveData.observe(viewLifecycleOwner, { it ->
-
             when(it) {
                 is DataState.Loading -> {
                     loading()

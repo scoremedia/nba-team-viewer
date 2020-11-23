@@ -11,7 +11,7 @@ import retrofit2.http.GET
 
 interface NbaApi {
 
-    @GET("teams")
+    @GET("teamss")
     //@GET("nba-team-viewer")
     suspend fun getTeams(): Response<List<TeamResponse>>
 

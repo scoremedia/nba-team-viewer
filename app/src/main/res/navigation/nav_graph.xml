@@ -3,20 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/TeamsListFragment">
+    app:startDestination="@id/teamsListFragment">
 
     <fragment
-        android:id="@+id/TeamsListFragment"
+        android:id="@+id/teamsListFragment"
         android:name="com.dariushm2.thescore.view.teams_list.TeamsListFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_list">
 
         <action
             android:id="@+id/action_TeamsListFragment_to_PlayersListFragment"
-            app:destination="@id/PlayersListFragment" />
+            app:destination="@id/playersListFragment" />
     </fragment>
     <fragment
-        android:id="@+id/PlayersListFragment"
+        android:id="@+id/playersListFragment"
         android:name="com.dariushm2.thescore.view.team_page.PlayersListFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_list">

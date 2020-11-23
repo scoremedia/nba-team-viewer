@@ -67,7 +67,7 @@ class PlayersViewModelTest {
     @Test
     fun `team observer receives dataState Loading Success Error`() = testDispatcher.runBlockingTest {
 
-        viewModel.teamLiveData.observeForever(teamObserver)
+        viewModel.teamWithPlayersLiveData.observeForever(teamObserver)
 
         Truth.assertThat(teamList[0]).isEqualTo(DataState.Loading)
         Truth.assertThat(teamList[1]).isInstanceOf(DataState.Success::class.java)
@@ -77,7 +77,7 @@ class PlayersViewModelTest {
     @Test
     fun `players observer receives dataState Loading Success Error`() = testDispatcher.runBlockingTest {
 
-        viewModel.playersLiveData.observeForever(playersObserver)
+        viewModel.teamWithPlayersLiveData.observeForever(playersObserver)
         Truth.assertThat(playersList[0]).isEqualTo(DataState.Loading)
         Truth.assertThat(playersList[1]).isInstanceOf(DataState.Success::class.java)
         //Truth.assertThat(playersList[2]).isInstanceOf(DataState.Error::class.java)

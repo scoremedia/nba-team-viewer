@@ -16,23 +16,12 @@ class PlayersViewModel(
     private val repo: PlayersRepo
 ) : ViewModel() {
 
-    private var _teamsLiveData: LiveData<MutableList<TeamEntity>> = MutableLiveData()
-
     private val coroutineScope = getViewModelScope(coroutineScopeProvider)
 
-    val teamLiveData = liveData(coroutineScope.coroutineContext) {
+    val teamWithPlayersLiveData = liveData(coroutineScope.coroutineContext) {
         emit(DataState.Loading)
         try {
-            emit(DataState.Success(repo.getTeam()))
-        } catch (e: Exception) {
-            emit(DataState.Error(e))
-        }
-    }
-
-    val playersLiveData = liveData(coroutineScope.coroutineContext) {
-        emit(DataState.Loading)
-        try {
-            emit(DataState.Success(repo.getTeamsPlayers()))
+            emit(DataState.Success(repo.getTeamWithPlayers()))
         } catch (e: Exception) {
             emit(DataState.Error(e))
         }

@@ -6,7 +6,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.forEach
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -21,12 +20,15 @@ import com.dariushm2.thescore.util.DataState
 
 class PlayersListFragment : Fragment() {
 
-    private val vm: PlayersViewModel by lazy {
+    val vm: PlayersViewModel by lazy {
 
         val teamId = arguments?.getInt("teamId")
 
         ViewModelProvider(this, BaseViewModelFactory {
-            PlayersViewModel(null, PlayersRepo(teamId!!, NbaDatabase.getDatabase(requireContext()).getNbaDao()))
+            PlayersViewModel(
+                null,
+                PlayersRepo(teamId!!, NbaDatabase.getDatabase(requireContext()).getNbaDao())
+            )
         }).get(PlayersViewModel::class.java)
 
     }
@@ -67,55 +69,39 @@ class PlayersListFragment : Fragment() {
     }
 
 
-
     private fun setTitle(team: TeamEntity) {
         activity?.title = team.fullName
-        (activity as AppCompatActivity?)!!.supportActionBar?.subtitle = "${team.wins} Wins, ${team.losses} Losses"
+        if (activity is AppCompatActivity)
+            (activity as AppCompatActivity?)!!.supportActionBar?.subtitle =
+                "${team.wins} Wins, ${team.losses} Losses"
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        vm.teamLiveData.observe(viewLifecycleOwner, { it ->
 
-            when(it) {
+
+        vm.teamWithPlayersLiveData.observe(viewLifecycleOwner, { it ->
+
+            when (it) {
                 is DataState.Loading -> {
                     loading()
                 }
                 is DataState.Success -> {
                     finishLoading()
-                    vm.playersLiveData.observe(viewLifecycleOwner, { it ->
-                        when(it) {
-                            is DataState.Loading -> {
-                                loading()
-                            }
-                            is DataState.Success -> {
-                                finishLoading()
-                                it.data.observe(viewLifecycleOwner, { it ->
-                                    it.sortBy { it.firstName }
-                                    adapter = PlayersListAdapter(it)
-                                    recyclerView.adapter = adapter
-                                })
-
-                            }
-                            is DataState.Error -> {
-                                finishLoading()
-                                Toast.makeText(context, it.exception.toString(), Toast.LENGTH_LONG).show()
-                            }
-                        }
+                    it.data.observe(viewLifecycleOwner, {
+                        setTitle(it.teamEntity)
+                        it.playerEntities.sortedBy { it.firstName }
+                        adapter = PlayersListAdapter(it.playerEntities)
+                        recyclerView.adapter = adapter
                     })
-
                 }
                 is DataState.Error -> {
                     finishLoading()
                     Toast.makeText(context, it.exception.toString(), Toast.LENGTH_LONG).show()
                 }
             }
-
-
         })
-
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {

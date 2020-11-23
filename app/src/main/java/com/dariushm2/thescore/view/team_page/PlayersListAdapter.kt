@@ -7,6 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.dariushm2.thescore.R
 import com.dariushm2.thescore.db.model.PlayerEntity
+import com.dariushm2.thescore.remote.model.PlayerResponse
 
 
 class PlayersListAdapter(
