@@ -26,10 +26,13 @@ class TeamsRepo(
     suspend fun getRemoteTeams() {
         val response = nbaApi.getTeams()
         if (response.isSuccessful) {
-            //Log.e(NbaApp.TAG, "Fetched quote from server. ${response.body()}")
             if (response.body() != null)
                 cacheTeams(response.body()!!)
-        }
+            else
+                throw Exception("Response is empty!")
+        } else
+            throw Exception("Failed to get data from remote.")
+
     }
 
 

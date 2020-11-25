@@ -79,8 +79,6 @@ class PlayersListFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-
-
         vm.teamWithPlayersLiveData.observe(viewLifecycleOwner, { it ->
 
             when (it) {

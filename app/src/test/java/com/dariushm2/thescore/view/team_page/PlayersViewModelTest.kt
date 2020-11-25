@@ -30,20 +30,12 @@ class PlayersViewModelTest {
     private lateinit var viewModel: PlayersViewModel
 
     private val slot = slot<DataState<Any>>()
-    private var teamList = mutableListOf<DataState<Any>>()
-    private var playersList = mutableListOf<DataState<Any>>()
-    private val teamObserver = mockk<Observer<DataState<Any>>>() {
+    private var list = mutableListOf<DataState<Any>>()
+    private val teamWithPlayersObserver = mockk<Observer<DataState<Any>>>() {
         every {
             onChanged(capture(slot))
         } answers {
-            teamList.add(slot.captured)
-        }
-    }
-    private val playersObserver = mockk<Observer<DataState<Any>>>() {
-        every {
-            onChanged(capture(slot))
-        } answers {
-            playersList.add(slot.captured)
+            list.add(slot.captured)
         }
     }
 
@@ -67,20 +59,11 @@ class PlayersViewModelTest {
     @Test
     fun `team observer receives dataState Loading Success Error`() = testDispatcher.runBlockingTest {
 
-        viewModel.teamWithPlayersLiveData.observeForever(teamObserver)
+        viewModel.teamWithPlayersLiveData.observeForever(teamWithPlayersObserver)
 
-        Truth.assertThat(teamList[0]).isEqualTo(DataState.Loading)
-        Truth.assertThat(teamList[1]).isInstanceOf(DataState.Success::class.java)
-        //Truth.assertThat(teamList[2]).isInstanceOf(DataState.Error::class.java)
-    }
+        Truth.assertThat(list[0]).isEqualTo(DataState.Loading)
+        Truth.assertThat(list[1] is DataState.Success || list[1] is DataState.Error).isTrue()
 
-    @Test
-    fun `players observer receives dataState Loading Success Error`() = testDispatcher.runBlockingTest {
-
-        viewModel.teamWithPlayersLiveData.observeForever(playersObserver)
-        Truth.assertThat(playersList[0]).isEqualTo(DataState.Loading)
-        Truth.assertThat(playersList[1]).isInstanceOf(DataState.Success::class.java)
-        //Truth.assertThat(playersList[2]).isInstanceOf(DataState.Error::class.java)
     }
 
     @After

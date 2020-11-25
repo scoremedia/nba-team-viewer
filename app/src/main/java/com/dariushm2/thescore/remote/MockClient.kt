@@ -24,9 +24,7 @@ class MockClient(
         when (url.toString()) {
             "https://nba.com/teams" -> {
 
-                //Log.e(NbaApp.TAG, "https://nba.com/teams")
                 val response = withContext(Dispatchers.IO) { readJsonFileFromAssets() }
-                Log.e(TAG, response.toResponseBody().string())
                 Response.Builder()
                     .code(200)
                     .message(response)
@@ -41,7 +39,6 @@ class MockClient(
 
             }
             else -> {
-                Log.e(TAG, "$url")
                 Response.Builder()
                     .code(404)
                     .message("Page not found!")

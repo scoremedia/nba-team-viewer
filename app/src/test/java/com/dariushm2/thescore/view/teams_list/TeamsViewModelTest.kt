@@ -64,8 +64,7 @@ class TeamsViewModelTest {
         viewModel.teamsLiveData.observeForever(observer)
 
         assertThat(list[0]).isEqualTo(DataState.Loading)
-        assertThat(list[1]).isInstanceOf(DataState.Success::class.java)
-        //assertThat(list[2]).isInstanceOf(DataState.Error::class.java)
+        assertThat(list[1] is DataState.Success || list[1] is DataState.Error).isTrue()
     }
 
     @After

@@ -16,8 +16,6 @@ class TeamsListAdapter(
     private var teams: MutableList<TeamEntity>
 ) : RecyclerView.Adapter<TeamsListAdapter.ViewHolder>() {
 
-    fun getTeamsList(): List<TeamEntity> = teams
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view =
             LayoutInflater.from(parent.context).inflate(R.layout.item_team, parent, false)
@@ -25,8 +23,6 @@ class TeamsListAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-
-        //holder.itemView.txtName.text = activity.getString(R.string.fullName, teams[position].fullName)
 
         holder.bindItem(teams[position])
 
@@ -40,11 +36,6 @@ class TeamsListAdapter(
     }
 
     override fun getItemCount(): Int = teams.size
-
-    fun addItems(teams: List<TeamEntity>) {
-        this.teams.clear()
-        this.teams.addAll(teams)
-    }
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
