@@ -4,6 +4,7 @@ import com.dariushm2.thescore.remote.NbaApi
 import com.dariushm2.thescore.remote.model.PlayerResponse
 import com.dariushm2.thescore.remote.model.TeamResponse
 import retrofit2.Response
+import kotlin.math.pow
 
 class NbaApiFake() : NbaApi {
     override suspend fun getTeams(): Response<List<TeamResponse>> {
@@ -16,5 +17,4 @@ class NbaApiFake() : NbaApi {
             )
         )
     }
-
 }
