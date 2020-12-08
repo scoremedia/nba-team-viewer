@@ -28,7 +28,6 @@ interface NbaApi {
                 .addInterceptor(MockClient(context))
                 .build()
 
-
             return Retrofit.Builder()
                 .client(okHttpClient)
                 .baseUrl(BASE_URL)
